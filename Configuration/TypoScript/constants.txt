@@ -1,0 +1,7 @@
+
+themes.configuration.forms {
+	# cat=forms; type=options[0,1]; label=Activate debugging!? (unset the redirect page in order to debug the finisher)
+	debug = 0
+}
+
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_bootstrap_formhandler/Resources/Private/TypoScript" extensions="constantsts">

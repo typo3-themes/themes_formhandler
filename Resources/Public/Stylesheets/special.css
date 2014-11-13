@@ -1,0 +1,69 @@
+.form-examples h2 {
+	border: medium none;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: 21px;
+    margin: 0 0 10px 4px;
+    padding: 0;
+}
+.ajax span {
+	margin-left:10px;
+	float:right;
+}
+.loading {
+	margin-top:8px;
+}
+.formhandler-ajax-validation-result span.error,
+.formhandler-ajax-validation-result span.success {
+	display:inline;
+	border:0;
+	background:0;
+	margin:0;
+	padding:0;
+}
+.formhandler-ajax-validation-result img,
+.loading_ajax-submit img {
+    margin-top: 8px;
+}
+.loading_ajax-submit {
+	display:none;
+	text-align:right;
+	margin-top:2px;
+	float:right;
+}
+select.error + small.error {
+	margin-top:-1px;
+}
+img.tx-srfreecap-pi2-image {
+	margin:0 0 10px 0;
+}
+.tx-srfreecap-pi2-cant-read {
+	color:#222222;
+}
+.mathguard table {
+	border:0 none;
+}
+.mathguard table td {
+	padding:9px 0 0 0;
+}
+.mathguard pre {
+	background:none;
+	width: 65px;
+	border:0 none;
+	overflow: hidden;
+}
+.mathguard input {
+	width:100% !important;
+	margin:0;
+}
+.error-list small {
+	color:#C60F13;
+	background:0 none;
+	border-radius: 0;
+	margin:0;
+	padding:0;
+}
+.files small.error {
+	margin:0;
+}

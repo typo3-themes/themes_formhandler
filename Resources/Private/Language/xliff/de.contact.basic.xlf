@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2013-03-04T08:46:06Z" product-name="theme_bootstrap_formhandler">
+		<header/>
+		<body>
+			
+			
+			<trans-unit id="mlang_tabs_tab" xml:space="preserve">
+				<source>Themes</source>
+				<target>Themes</target>
+			</trans-unit>
+		
+			
+			
+			
+			<trans-unit id="label_fieldset" xml:space="preserve">
+				<source>Contact Form</source>
+				<target>Themes</target>
+			</trans-unit>
+			<trans-unit id="name" xml:space="preserve">
+				<source>Name:</source>
+				<target>Themes</target>
+			</trans-unit>
+			<trans-unit id="email" xml:space="preserve">
+				<source>E-Mail:</source>
+				<target>Themes</target>
+			</trans-unit>
+			<trans-unit id="message" xml:space="preserve">
+				<source>Your Message:</source>
+				<target>Themes</target>
+			</trans-unit>
+			<trans-unit id="receive_copy" xml:space="preserve">
+				<source>I want to receive a copy of this request</source>
+				<target>Themes</target>
+			</trans-unit>
+			<trans-unit id="submit" xml:space="preserve">
+				<source>Send</source>
+				<target>Themes</target>
+			</trans-unit>
+			
+			<trans-unit id="greetings" xml:space="preserve">
+				<source>Dear</source>
+				<target>Themes</target>
+			</trans-unit>
+			<trans-unit id="email_user_subject" xml:space="preserve">
+				<source>Your contact request</source>
+				<target>Themes</target>
+			</trans-unit>
+			<trans-unit id="email_user_text" xml:space="preserve">
+				<source>We have received your request via the contact form on www.example.org. We will process your request and get in contact with you soon.</source>
+				<target>Themes</target>
+			</trans-unit>
+			<trans-unit id="email_user_footer" xml:space="preserve">
+				<source>---------------------------------- This message was created automatically. --------------------------------</source>
+				<target>Themes</target>
+			</trans-unit>
+			
+			<trans-unit id="email_admin_subject" xml:space="preserve">
+				<source>Contact request</source>
+				<target>Themes</target>
+			</trans-unit>
+			<trans-unit id="email_admin_text" xml:space="preserve">
+				<source>A user filled out the contact form on www.example.org.</source>
+				<target>Themes</target>
+			</trans-unit>
+			<trans-unit id="email_admin_footer" xml:space="preserve">
+				<source>---------------------------------- This message was created automatically. --------------------------------</source>
+				<target>Themes</target>
+			</trans-unit>
+			
+			<trans-unit id="error_name_required" xml:space="preserve">
+				<source>Please enter your name!</source>
+				<target>Themes</target>
+			</trans-unit>
+			<trans-unit id="error_email_required" xml:space="preserve">
+				<source>Please enter your email address!</source>
+				<target>Themes</target>
+			</trans-unit>
+			<trans-unit id="error_email_email" xml:space="preserve">
+				<source>Please enter a valid email address!</source>
+				<target>Themes</target>
+			</trans-unit>
+			<trans-unit id="error_message_required" xml:space="preserve">
+				<source>Please enter a message!</source>
+				<target>Themes</target>
+			</trans-unit>
+			
+		</body>
+	</file>
+</xliff>
