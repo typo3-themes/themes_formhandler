@@ -10,7 +10,7 @@ plugin.Tx_Formhandler.settings.predef.theme-bootstrap-contact-basic-form {
 	formValuesPrefix = contact-basic
 
 	langFile.1 = TEXT
-	langFile.1.value = {$themes.configuration.forms.contact.basic.languagePath}ContactBasic.xml
+	langFile.1.value = {$themes.configuration.forms.contact.basic.languagePath}
 
 	templateFile = TEXT
 	templateFile.value = {$themes.configuration.forms.contact.basic.templatePath}ContactBasic/Step1.html
@@ -70,7 +70,7 @@ plugin.Tx_Formhandler.settings.predef.theme-bootstrap-contact-basic-form {
 				bcc_name = BCC-Name
 				
 				subject = TEXT
-				subject.data = LLL:{$themes.configuration.forms.contact.basic.languagePath}ContactBasic.xml:email_admin_subject
+				subject.data = LLL:{$themes.configuration.forms.contact.basic.languagePath}:email_admin_subject
 			}
 		}
 
@@ -84,7 +84,7 @@ plugin.Tx_Formhandler.settings.predef.theme-bootstrap-contact-basic-form {
 }
 
 # If the user has chosen to receive a copy of the contact request, reconfigure Finisher_Mail to send an email to the user to.
-[globalVar = GP:contact-basic|receive-copy = 1]
+[globalVar = GP:contact-basic|receivecopy = 1]
 plugin.Tx_Formhandler.settings.predef.theme-bootstrap-contact-basic-form {
 	finishers {
 		1.config {
@@ -94,7 +94,7 @@ plugin.Tx_Formhandler.settings.predef.theme-bootstrap-contact-basic-form {
 				sender_email = {$themes.configuration.forms.contact.basic.email.user.sender_email}
 				to_email = email
 				subject = TEXT
-				subject.data = LLL:{$themes.configuration.forms.contact.basic.languagePath}ContactBasic.xml:email_user_subject
+				subject.data = LLL:{$themes.configuration.forms.contact.basic.languagePath}:email_user_subject
 			}
 		}
 	}

@@ -1,15 +1,21 @@
 <!-- ###master_input### -->
-<div class="form-group form-input-text ###is_error_###fieldname######">
+<div class="form-group form-input-text ###is_error_###fieldname###### field-###fieldname###">
 	<label class="col-sm-3 control-label ###is_error_###fieldname######" for="###fieldname###">###LLL:###fieldname###### ###required_###fieldname######</label>
 	<div class="col-sm-9">
-		<input class="form-control" type="text" size="20" id="###fieldname###" name="###formValuesPrefix###[###fieldname###]" value="###value_###fieldname######"/>
+		<input class="form-control" 
+			   type="text" 
+			   size="20" 
+			   id="###fieldname###" 
+			   name="###formValuesPrefix###[###fieldname###]" 
+			   value="###value_###fieldname######"
+			   placeholder="###LLL:###fieldname###_placeholder###"/>
 		###error_###fieldname######
 	</div>
 </div>
 <!-- ###master_input### -->
 
 <!-- ###master_inputtime### -->
-<div class="form-group form-input-time ###is_error_###fieldname######">
+<div class="form-group form-input-time ###is_error_###fieldname###### field-###fieldname###">
 	<label class="col-sm-3 control-label ###is_error_###fieldname######" for="###fieldname###">###LLL:###fieldname###### ###required_###fieldname######</label>
 	<div class="col-sm-9">
 		<input class="form-control" type="time" size="20" id="###fieldname###" name="###formValuesPrefix###[###fieldname###]" value="###value_###fieldname######"/>
@@ -19,7 +25,7 @@
 <!-- ###master_inputtime### -->
 
 <!-- ###master_inputdate### -->
-<div class="form-group form-input-date ###is_error_###fieldname######">
+<div class="form-group form-input-date ###is_error_###fieldname###### field-###fieldname###">
 	<label class="col-sm-3 control-label ###is_error_###fieldname######" for="###fieldname###">###LLL:###fieldname###### ###required_###fieldname######</label>
 	<div class="col-sm-9">
 		<input class="form-control" type="date" size="20" id="###fieldname###" name="###formValuesPrefix###[###fieldname###]" value="###value_###fieldname######"/>
@@ -29,17 +35,22 @@
 <!-- ###master_inputdate### -->
 
 <!-- ###master_textarea### -->
-<div class="form-group ###is_error_###fieldname######">
+<div class="form-group ###is_error_###fieldname###### field-###fieldname###">
 	<label class="col-sm-3 control-label ###is_error_###fieldname######" for="###fieldname###" ###is_error_###fieldname######>###LLL:###fieldname###### ###required_###fieldname######</label>
 	<div class="col-sm-9">
-		<textarea class="form-control ###is_error_###fieldname######" rows="10" cols="30" id="###fieldname###" name="###formValuesPrefix###[###fieldname###]">###value_###fieldname######</textarea>						
+		<textarea class="form-control ###is_error_###fieldname######" 
+				  rows="5" 
+				  cols="30" 
+				  id="###fieldname###" 
+				  name="###formValuesPrefix###[###fieldname###]"
+				  placeholder="###LLL:###fieldname###_placeholder###">###value_###fieldname######</textarea>
 		###error_###fieldname######
 	</div>
 </div>
 <!-- ###master_textarea### -->
 
 <!-- ###master_input_ajax### -->
-<div class="form-group ajax ###is_error_###fieldname######">
+<div class="form-group ajax ###is_error_###fieldname###### field-###fieldname###">
 	<div class="col-sm-3">
 		<div class="row">
 			<label class="col-xs-10 control-label" for="###fieldname###">###LLL:###fieldname###### ###required_###fieldname######</label>
@@ -55,7 +66,7 @@
 <!-- ###master_input_ajax### -->
 
 <!-- ###master_textarea_ajax### -->
-<div class="form-group ajax ###is_error_###fieldname######">
+<div class="form-group ajax ###is_error_###fieldname###### field-###fieldname###">
 	<div class="col-sm-3">
 		<div class="row">
 			<label class="col-xs-10 control-label " for="###fieldname###">###LLL:###fieldname###### ###required_###fieldname######</label>
@@ -69,6 +80,23 @@
 	</div>
 </div>
 <!-- ###master_textarea_ajax### -->
+
+<!-- ###master_advanced_subject### -->
+<div class="form-group ###is_error_subject###">
+	<label for="subject" class="col-sm-3 control-label">###LLL:subject### ###required_subject###</label>
+	<div class="col-sm-9">
+		<select id="subject" class="form-control" name="###formValuesPrefix###[subject]" class="select">
+			###subject_options###
+		</select>
+		###error_subject###
+		###validate_subject###
+	</div>
+</div>
+<!-- ###master_advanced_subject### -->
+
+<!-- ###master_spamprotection-timecheck### -->
+<input type="hidden" name="###formValuesPrefix###[formtime]" value="###TIMESTAMP###" />
+<!-- ###master_spamprotection-timecheck### -->
 
 <!-- ###master_position### -->
 <div class="form-group ###is_error_position###">
@@ -180,7 +208,7 @@
 <!-- ###master_basicfile### -->
 
 <!-- ###master_checkbox### -->
-<div class="form-group">
+<div class="form-group form-input-checkbox field-###fieldname###">
 	<div class="col-sm-offset-3 col-sm-9">
 		<div class="checkbox">
 			<label for="###fieldname###">
@@ -251,34 +279,35 @@
 <!-- ###master_spamprotection-timecheck### -->
 
 <!-- ###master_submit### -->
-<div class="form-group">
-	<div class="col-sm-1 pull-right">
+<div class="form-group form-input-submit">
+	<label class="col-sm-3 control-label"></label>
+	<div class="col-sm-9">
 		<input type="submit" ###submit_nextStep### class="btn btn-default" value="###LLL:submit###" />
 	</div>
 </div>
 <!-- ###master_submit### -->
 
 <!-- ###master_submit-disable### -->
-<div class="form-group">
-	<div class="col-sm-1 pull-right">
+<div class="form-group form-input-submit">
+	<div class="col-sm-1 pull-left">
 		<input type="submit" ###submit_nextStep### class="btn btn-default ###validation-status###" value="###LLL:submit###" />
 	</div>
 </div>
 <!-- ###master_submit-disable### -->
 
 <!-- ###master_ajax-submit### -->
-<div class="form-group">
-	<div class="col-xs-10">
+<div class="form-group form-input-submit">
+	<div class="col-xs-12">
+		<div>
 		###loading_ajax-submit###
-	</div>
-	<div class="col-xs-2">
-		<input type="submit" ###submit_nextStep### class="btn btn-default" value="###LLL:submit###" />
+		<input type="submit" ###submit_nextStep### value="###LLL:submit###" class="btn btn-default" />
+		</div>
 	</div>
 </div>
 <!-- ###master_ajax-submit### -->
 
 <!-- ###master_next### -->
-	<div class="col-sm-1 pull-right">
+	<div class="col-sm-1 pull-left">
 		<input type="submit" ###submit_nextStep### class="btn btn-default" value="###LLL:next###" />
 	</div>
 <!-- ###master_next### -->
@@ -296,7 +325,7 @@
 	<div class="col-sm-1 col-sm-offset-3">
 		<input type="submit" ###submit_prevStep### class="btn btn-default" value="###LLL:prev###" />
 	</div>
-	<div class="col-sm-1 pull-right">
+	<div class="col-sm-1 pull-left">
 		<input type="submit" ###submit_nextStep### class="btn btn-default" value="###LLL:next###" />
 	</div>
 </div>
@@ -307,7 +336,7 @@
 	<div class="col-sm-1 col-sm-offset-3">
 		<input type="submit" ###submit_prevStep### class="btn btn-default" value="###LLL:prev###" />
 	</div>
-	<div class="col-sm-1 pull-right">
+	<div class="col-sm-1 pull-left">
 		<input type="submit" ###submit_nextStep### class="btn btn-default" value="###LLL:submit###" />
 	</div>
 </div>
@@ -320,7 +349,7 @@
 		<!-- ###master_form-start### -->
 
 		<!-- ###master_multipart-form-start### -->
-		<div class="container">
+		<div class=""><!-- tdeuling container -->
 			<form action="###REL_URL###" method="post" id="###fieldname###" enctype="multipart/form-data" class="form-examples form-horizontal" role="form">
 				###HIDDEN_FIELDS###
 				<!-- ###master_multipart-form-start### -->
@@ -337,6 +366,10 @@
 			<!-- ###master_section-end### -->
 		</fieldset>
 		<!-- ###master_section-end### -->
+
+		<!-- ###master_section-two-column-start### -->
+		<fieldset class="two-column">
+		<!-- ###master_section-two-column-start### -->
 
 		<!-- ###master_email-user-start-plain### -->
 

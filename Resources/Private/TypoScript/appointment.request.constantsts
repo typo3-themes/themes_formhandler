@@ -1,31 +1,34 @@
+# customcategory=forms=Formulare
+# customsubcategory=appointmentrequest=Theme-Bootstrap Formhandler Appointment Request Form
+
 themes.configuration.forms.appointment.request {
 
-	# cat=forms; type=string; label=AppointmentRequest: Template root path: Path where the templates was saved to.
+	# cat=forms/appointmentrequest/; type=string; label=AppointmentRequest: Template root path: Path where the templates was saved to.
 	templatePath = EXT:theme_bootstrap_formhandler/Resources/Private/Templates/
 	
-	# cat=forms; type=string; label=AppointmentRequest: Language root path: Path where the languages was saved to.
-	languagePath = EXT:theme_bootstrap_formhandler/Resources/Private/Language/
+	# cat=forms/appointmentrequest/; type=string; label=AppointmentRequest: Language file path: File/Path where the languages was saved to.
+	languagePath = EXT:theme_bootstrap_formhandler/Resources/Private/Language/AppointmentRequest.xml
 	
 	email {
 
 		user {
 
-			# cat=forms; type=string; label=AppointmentRequest: User email sender: Email address to use as sender address for the user email.
+			# cat=forms/appointmentrequest/; type=string; label=AppointmentRequest: User email sender: Email address to use as sender address for the user email.
 			sender_email = 
 
 		}
 
 		admin {
 
-			# cat=forms; type=string; label=AppointmentRequest: Admin email sender: Email address to use as sender address for the admin email.
+			# cat=forms/appointmentrequest/; type=string; label=AppointmentRequest: Admin email sender: Email address to use as sender address for the admin email.
 			sender_email = 
 
-			# cat=forms; type=string; label=AppointmentRequest: Admin email recipient: Email address of an admin to receive the contact request.
+			# cat=forms/appointmentrequest/; type=string; label=AppointmentRequest: Admin email recipient: Email address of an admin to receive the contact request.
 			to_email = 
 		}
 	}
 
-	# cat=forms; type=string; label=AppointmentRequest: Redirect Page: Page ID to redirect after successful form submission.
+	# cat=forms/appointmentrequest/; type=string; label=AppointmentRequest: Redirect Page: Page ID to redirect after successful form submission.
 	redirectPage = 
 
 	includeBasicCSS = 1

@@ -10,7 +10,7 @@ plugin.Tx_Formhandler.settings.predef.theme-bootstrap-contact-medium-form {
 	formValuesPrefix = contact-medium
 	
 	langFile.1 = TEXT
-	langFile.1.value = {$themes.configuration.forms.contact.medium.languagePath}ContactMedium.xml
+	langFile.1.value = {$themes.configuration.forms.contact.medium.languagePath}
 
 	templateFile = TEXT
 	templateFile.value = {$themes.configuration.forms.contact.medium.templatePath}ContactMedium/Step1.html
@@ -59,7 +59,7 @@ plugin.Tx_Formhandler.settings.predef.theme-bootstrap-contact-medium-form {
 				sender_email = {$themes.configuration.forms.contact.medium.email.admin.sender_email}
 				to_email = {$themes.configuration.forms.contact.medium.email.admin.to_email}
 				subject = TEXT
-				subject.data = LLL:{$themes.configuration.forms.contact.medium.languagePath}ContactMedium.xml:email_admin_subject
+				subject.data = LLL:{$themes.configuration.forms.contact.medium.languagePath}:email_admin_subject
 			}
 		}
 
@@ -73,7 +73,7 @@ plugin.Tx_Formhandler.settings.predef.theme-bootstrap-contact-medium-form {
 }
 
 # If the user has chosen to receive a copy of the contact request, reconfigure Finisher_Mail to send an email to the user to.
-[globalVar = GP:contact-medium|receive-copy = 1]
+[globalVar = GP:contact-medium|receivecopy = 1]
 plugin.Tx_Formhandler.settings.predef.theme-bootstrap-contact-medium-form {
 	finishers {
 		1.config {
@@ -83,7 +83,7 @@ plugin.Tx_Formhandler.settings.predef.theme-bootstrap-contact-medium-form {
 				sender_email = {$themes.configuration.forms.contact.medium.email.user.sender_email}
 				to_email = email
 				subject = TEXT
-				subject.data = LLL:{$themes.configuration.forms.contact.medium.languagePath}ContactMedium.xml:email_user_subject
+				subject.data = LLL:{$themes.configuration.forms.contact.medium.languagePath}:email_user_subject
 			}
 		}
 	}

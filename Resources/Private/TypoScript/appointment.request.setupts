@@ -10,7 +10,7 @@ plugin.Tx_Formhandler.settings.predef.theme-bootstrap-appointment-request-form {
 	formValuesPrefix = appointment-request
 
 	langFile.1 = TEXT
-	langFile.1.value = {$themes.configuration.forms.appointment.request.languagePath}AppointmentRequest.xml
+	langFile.1.value = {$themes.configuration.forms.appointment.request.languagePath}
 
 	templateFile = TEXT
 	templateFile.value = {$themes.configuration.forms.appointment.request.templatePath}AppointmentRequest/Step1.html
@@ -59,7 +59,7 @@ plugin.Tx_Formhandler.settings.predef.theme-bootstrap-appointment-request-form {
 				sender_email = {$themes.configuration.forms.appointment.request.email.admin.sender_email}
 				to_email = {$themes.configuration.forms.appointment.request.email.admin.to_email}
 				subject = TEXT
-				subject.data = LLL:{$themes.configuration.forms.appointment.request.languagePath}AppointmentRequest.xml:email_admin_subject
+				subject.data = LLL:{$themes.configuration.forms.appointment.request.languagePath}:email_admin_subject
 			}
 		}
 
@@ -73,7 +73,7 @@ plugin.Tx_Formhandler.settings.predef.theme-bootstrap-appointment-request-form {
 }
 
 # If the user has chosen to receive a copy of the appointment request, reconfigure Finisher_Mail to send an email to the user to.
-[globalVar = GP:appointment-request|receive-copy = 1]
+[globalVar = GP:appointment-request|receivecopy = 1]
 	plugin.Tx_Formhandler.settings.predef.theme-bootstrap-appointment-request-form {
 		finishers {
 			1.config {
@@ -83,7 +83,7 @@ plugin.Tx_Formhandler.settings.predef.theme-bootstrap-appointment-request-form {
 					sender_email = {$themes.configuration.forms.appointment.request.email.user.sender_email}
 					to_email = email
 					subject = TEXT
-					subject.data = LLL:{$themes.configuration.forms.appointment.request.languagePath}AppointmentRequest.xml:email_user_subject
+					subject.data = LLL:{$themes.configuration.forms.appointment.request.languagePath}:email_user_subject
 				}
 			}
 		}

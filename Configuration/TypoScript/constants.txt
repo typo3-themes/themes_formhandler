@@ -1,6 +1,8 @@
+# customcategory=forms=Formulare
+# customsubcategory=formsgeneral=Theme-Bootstrap Formhandler General
 
 themes.configuration.forms {
-	# cat=forms; type=options[0,1]; label=Activate debugging!? (unset the redirect page in order to debug the finisher)
+	# cat=forms/formsgeneral/; type=options[0,1]; label=Activate debugging!? (unset the redirect page in order to debug the finisher)
 	debug = 0
 }
 
