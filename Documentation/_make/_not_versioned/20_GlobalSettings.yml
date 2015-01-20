@@ -1,0 +1,102 @@
+# 20_GlobalSettings.yml
+# 2014-12-13 00:21:33
+# read from : /var/www/typo3-6.2/typo3temp/tx_sphinx/sphinx-doc/1.3b2/lib/python/t3sphinx/settings/GlobalSettings.yml
+# written to: /var/www/typo3-6.2/typo3conf/ext/theme_bootstrap_formhandler/Documentation/_make/_not_versioned/20_GlobalSettings.yml
+# Result: Applied '/var/www/typo3-6.2/typo3temp/tx_sphinx/sphinx-doc/1.3b2/lib/python/t3sphinx/settings/GlobalSettings.yml' to 'conf.py'.
+
+---
+conf.py:
+  copyright: 1970-2099
+  extensions:
+  - sphinx.ext.extlinks
+  - sphinx.ext.ifconfig
+  - sphinx.ext.intersphinx
+  - t3sphinx.ext.t3extras
+  - t3sphinx.ext.t3tablerows
+  - t3sphinx.ext.targets
+  extlinks:
+    forge:
+    - https://forge.typo3.org/issues/%s
+    - 'forge: '
+  highlight_language: none
+  html_theme: t3org
+  intersphinx_mapping: {}
+  intersphinx_mapping_RECOMMENDED:
+    t3api:
+    - http://docs.typo3.org/typo3cms/CoreApiReference
+    - null
+    t3cgl:
+    - http://docs.typo3.org/typo3cms/CodingGuidelinesReference
+    - null
+    t3editors:
+    - http://docs.typo3.org/typo3cms/EditorsTutorial
+    - null
+    t3extbase:
+    - http://docs.typo3.org/typo3cms/ExtbaseGuide
+    - null
+    t3extbasebook:
+    - http://docs.typo3.org/typo3cms/ExtbaseFluidBook/
+    - null
+    t3fal:
+    - http://docs.typo3.org/typo3cms/FileAbstractionLayerReference
+    - null
+    t3inside:
+    - http://docs.typo3.org/typo3cms/InsideTypo3Reference
+    - null
+    t3install:
+    - http://docs.typo3.org/typo3cms/InstallationGuide
+    - null
+    t3l10n:
+    - http://docs.typo3.org/typo3cms/FrontendLocalizationGuide
+    - null
+    t3maintenance:
+    - http://docs.typo3.org/typo3cms/MaintenanceGuide
+    - null
+    t3security:
+    - http://docs.typo3.org/typo3cms/SecurityGuide
+    - null
+    t3services:
+    - http://docs.typo3.org/typo3cms/Typo3ServicesReference
+    - null
+    t3skinning:
+    - http://docs.typo3.org/typo3cms/SkinningReference/
+    - null
+    t3start:
+    - http://docs.typo3.org/typo3cms/GettingStartedTutorial
+    - null
+    t3tca:
+    - http://docs.typo3.org/typo3cms/TCAReference
+    - null
+    t3templating:
+    - http://docs.typo3.org/typo3cms/TemplatingTutorial/
+    - null
+    t3ts45:
+    - http://docs.typo3.org/typo3cms/TyposcriptIn45MinutesTutorial
+    - null
+    t3tsconfig:
+    - http://docs.typo3.org/typo3cms/TSconfigReference
+    - null
+    t3tsref:
+    - http://docs.typo3.org/typo3cms/TyposcriptReference
+    - null
+    t3tssyntax:
+    - http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference
+    - null
+  latex_documents: []
+  latex_documents_EXAMPLE:
+  - - Index
+    - extension-key.tex
+    - Title of the manual
+    - Name of the author
+    - manual
+  latex_elements: {}
+  latex_elements_EXAMPLE:
+    papersize: a4paper
+    pointsize: 10pt
+    preamble: \usepackage{typo3}
+  project: Project Name
+  pygments_style: friendly
+  release: 0.0.0
+  today_fmt: '%Y-%m-%d %H:%M'
+  version: 0.0
+...

@@ -1,0 +1,37 @@
+# customcategory=forms=Formulare
+# customsubcategory=contactajaxbasic=Theme-Bootstrap Formhandler Basic Contact AJAX Form
+
+themes.configuration.forms.contact.ajax.basic {
+
+	# cat=forms/contactajaxbasic/; type=string; label=ContactAjaxBasic: Template root path: Path where the templates was saved to.
+	templatePath = EXT:theme_bootstrap_formhandler/Resources/Private/Templates/
+
+	# cat=forms/contactajaxbasic/; type=string; label=ContactAjaxBasic: Language file path: File/Path where the languages was saved to.
+	languagePath = EXT:theme_bootstrap_formhandler/Resources/Private/Language/ContactAjaxBasic.xml
+
+	email {
+
+		user {
+
+			# cat=forms/contactajaxbasic/; type=string; label=ContactAjaxBasic: User email sender: Email address to use as sender address for the user email.
+			sender_email =
+
+		}
+
+		admin {
+
+			# cat=forms/contactajaxbasic/; type=string; label=ContactAjaxBasic: Admin email sender: Email address to use as sender address for the admin email.
+			sender_email =
+
+			# cat=forms/contactajaxbasic/; type=string; label=ContactAjaxBasic: Admin email recipient: Email address of an admin to receive the contact request.
+			to_email =
+		}
+	}
+
+	# cat=forms/contactajaxbasic/; type=string; label=ContactAjaxBasic: Redirect Page: Page ID to redirect after successful form submission.
+	redirectPage =
+
+
+	includeBootstrapCSS = 0
+	
+}

@@ -1,0 +1,11 @@
+WARNING: the config value 'version' has type `float', defaults to `str.'
+/var/www/typo3-6.2/typo3conf/ext/theme_bootstrap_formhandler/Documentation/Localization.de_DE/Index.rst:: WARNING: document isn't included in any toctree
+/var/www/typo3-6.2/typo3conf/ext/theme_bootstrap_formhandler/Documentation/_IncludedDirectives.rst:: WARNING: document isn't included in any toctree
+
+[31;01mException occurred:[39;49;00m
+  File "/var/www/typo3-6.2/typo3temp/tx_sphinx/sphinx-doc/1.3b2/lib/python/Sphinx-1.3b2dev_20141212-py2.7.egg/sphinx/builders/html.py", line 1089, in handle_finish
+    StandaloneHTMLBuilder.handle_finish(self)
+TypeError: unbound method handle_finish() must be called with StandaloneHTMLBuilder instance as first argument (got JSONHTMLBuilder instance instead)
+[31;01mThe full traceback has been saved in /tmp/sphinx-err-0ODFy2.log, if you want to report the issue to the developers.[39;49;00m
+Please also report this if it was a user error, so that a better error message can be provided next time.
+A bug report can be filed in the tracker at <https://bitbucket.org/birkenfeld/sphinx/issues/>. Thanks!

@@ -1,0 +1,133 @@
+# 10_conf_py.yml
+# 2014-12-13 00:21:33
+# read from : conf.py
+# written to: /var/www/typo3-6.2/typo3conf/ext/theme_bootstrap_formhandler/Documentation/_make/_not_versioned/10_conf_py.yml
+
+---
+conf.py:
+  copyright: '2013, '
+  exclude_patterns:
+  - _make
+  exclude_trees:
+  - _make
+  extensions:
+  - sphinx.ext.intersphinx
+  - sphinx.ext.todo
+  - sphinx.ext.ifconfig
+  html_static_path: []
+  html_theme: defalut
+  html_theme_path:
+  - /var/www/typo3-6.2/typo3temp/tx_sphinx/sphinx-doc/1.3b2/lib/python/t3sphinx/themes
+  htmlhelp_basename: ftmServerdoc
+  intersphinx_mapping:
+    t3api:
+    - http://docs.typo3.org/typo3cms/CoreApiReference/
+    - null
+    t3cgl:
+    - http://docs.typo3.org/typo3cms/CodingGuidelinesReference/
+    - null
+    t3editors:
+    - http://docs.typo3.org/typo3cms/EditorsTutorial/
+    - null
+    t3extbasebook:
+    - http://docs.typo3.org/typo3cms/ExtbaseFluidBook/
+    - null
+    t3fal:
+    - http://docs.typo3.org/typo3cms/FileAbstractionLayerReference/
+    - null
+    t3inside:
+    - http://docs.typo3.org/typo3cms/InsideTypo3Reference/
+    - null
+    t3install:
+    - http://docs.typo3.org/typo3cms/InstallationGuide/
+    - null
+    t3l10n:
+    - http://docs.typo3.org/typo3cms/FrontendLocalizationGuide/
+    - null
+    t3maintenance:
+    - http://docs.typo3.org/typo3cms/MaintenanceGuide/
+    - null
+    t3security:
+    - http://docs.typo3.org/typo3cms/SecurityGuide/
+    - null
+    t3services:
+    - http://docs.typo3.org/typo3cms/Typo3ServicesReference/
+    - null
+    t3skinning:
+    - http://docs.typo3.org/typo3cms/SkinningReference/
+    - null
+    t3start:
+    - http://docs.typo3.org/typo3cms/GettingStartedTutorial/
+    - null
+    t3tca:
+    - http://docs.typo3.org/typo3cms/TCAReference/
+    - null
+    t3templating:
+    - http://docs.typo3.org/typo3cms/TemplatingTutorial/
+    - null
+    t3ts45:
+    - http://docs.typo3.org/typo3cms/TyposcriptIn45MinutesTutorial/
+    - null
+    t3tsconfig:
+    - http://docs.typo3.org/typo3cms/TSconfigReference/
+    - null
+    t3tsref:
+    - http://docs.typo3.org/typo3cms/TyposcriptReference/
+    - null
+    t3tssyntax:
+    - http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/
+    - null
+  latex_documents:
+  - - Index
+    - ftmServer.tex
+    - FtmServer
+    - ''
+    - manual
+  latex_elements:
+    preamble: \usepackage{typo3}
+  lexers: {}
+  man_pages:
+  - - Index
+    - ftmServer
+    - FtmServer
+    - - ''
+    - 1
+  master_doc: Index
+  pdf_documents:
+  - - Index
+    - ftmServer
+    - FtmServer
+    - ''
+  pdf_fit_background_mode: scale
+  pdf_style_path:
+  - .
+  - _styles
+  pdf_stylesheets:
+  - sphinx
+  - kerning
+  - a4
+  pdf_toc_depth: 9999
+  pdf_use_numbered_links: false
+  project: FtmServer
+  pygments_style: sphinx
+  release: ''
+  source_suffix: .rst
+  t3DocTeam:
+    conf_py_file: /var/www/typo3-6.2/typo3conf/ext/theme_bootstrap_formhandler/Documentation/_make/conf.py
+    conf_py_package_dir: /var/www/typo3-6.2/typo3conf/ext/theme_bootstrap_formhandler/Documentation/_make
+    pathToGlobalYamlSettings: /var/www/typo3-6.2/typo3temp/tx_sphinx/sphinx-doc/1.3b2/lib/python/t3sphinx/settings/GlobalSettings.yml
+    pathToYamlSettings: /var/www/typo3-6.2/typo3conf/ext/theme_bootstrap_formhandler/Documentation/_make/../Settings.yml
+    path_to_logdir: /var/www/typo3-6.2/typo3conf/ext/theme_bootstrap_formhandler/Documentation/_make/_not_versioned
+    relpath_to_logdir: _not_versioned
+    relpath_to_master_doc: ..
+  templates_path: []
+  texinfo_documents:
+  - - Index
+    - ftmServer
+    - FtmServer
+    - ''
+    - FtmServer
+    - One line description of project.
+    - Miscellaneous
+  version: .
+...

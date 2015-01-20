@@ -1,0 +1,43 @@
+# customcategory=forms=Formulare
+# customsubcategory=contactadvanced=Theme-Bootstrap Formhandler Advanced Contact Form
+
+themes.configuration.forms.contact.advanced {
+
+	# cat=forms/contactadvanced/; type=string; label=ContactAdvanced: Template root path: Path where the templates was saved to.
+	templatePath = EXT:theme_bootstrap_formhandler/Resources/Private/Templates/
+	
+	# cat=forms/contactadvanced/; type=string; label=ContactAdvanced: Language file path: File/Path where the languages was saved to.
+	languagePath = EXT:theme_bootstrap_formhandler/Resources/Private/Language/ContactAdvanced.xml
+	
+	email {
+
+		user {
+
+			# cat=forms/contactadvanced/; type=string; label=ContactAdvanced: User email sender: Email address to use as sender address for the user email.
+			sender_email = 
+
+		}
+
+		admin {
+
+			# cat=forms/contactadvanced/; type=string; label=ContactAdvanced: Admin email sender: Email address to use as sender address for the admin email.
+			sender_email = 
+
+			# cat=forms/contactadvanced/; type=string; label=ContactAdvanced: Admin email recipient: Email address of an admin to receive the contact request (in case of subject-email-identification failed).
+			to_email = 
+		}
+	}
+
+	# cat=forms/contactadvanced/; type=string; label=ContactAdvanced: Redirect Page: Page ID to redirect after successful form submission.
+	redirectPage = 
+
+	includeBasicCSS = 1
+
+	# cat=forms/contactadvanced/; type=int+; label=ContactAdvanced: Pid of the Container for the subjects
+	subjectContainerPid = 0
+
+	# cat=forms/contactadvanced/; type=int+; label=ContactAdvanced: Uid of the FrontendUser-Group for the subjects
+	subjectFrontendUserGroupUid = 0
+	
+}
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description>Language labels for Contact Form</description>
+	</meta>
+	<data type="array">
+		
+		<languageKey index="default" type="array">
+			<label index="label_fieldset">Contact Form</label>
+			<label index="firstname">Firstname:</label>
+			<label index="lastname">Lastname:</label>
+			<label index="phone">Phone:</label>
+			<label index="email">E-Mail:</label>
+			<label index="subject">Subject:</label>
+			<label index="message">Your Message:</label>
+			<label index="receivecopy">I want to receive a copy of this request</label>
+			<label index="captcha">Captcha:</label>
+			<label index="submit">Send</label>
+
+			<label index="greetings">Dear</label>
+			<label index="email_user_subject">Your contact request</label>
+			<label index="email_user_text">We have received your request via the contact form on www.fluid-template-manager.de. We will process your request and get in contact with you soon.</label>
+			<label index="email_user_footer">---------------------------------- This message was created automatically. --------------------------------</label>
+
+			<label index="email_admin_subject">Contact request</label>
+			<label index="email_admin_text">A user filled out the contact form on www.fluid-template-manager.de.</label>
+			<label index="email_admin_footer">---------------------------------- This message was created automatically. --------------------------------</label>
+
+			<label index="error_firstname_required">Please enter your firstname!</label>
+			<label index="error_lastname_required">Please enter your lastname!</label>
+			<label index="error_phone_required">Please enter your phone!</label>
+			<label index="error_email_required">Please enter your email address!</label>
+			<label index="error_email_email">Please enter a valid email address!</label>
+			<label index="error_subject_required">Please select a subject!</label>
+			<label index="error_message_required">Please enter a message!</label>
+			<label index="error_mathguard_answer">Please solve the captcha!</label>
+		</languageKey>
+
+		<languageKey index="de" type="array">
+			<label index="label_fieldset">Contact Form</label>
+			<label index="firstname">Vorname:</label>
+			<label index="lastname">Nachname:</label>
+			<label index="phone">Telefon:</label>
+			<label index="email">E-Mail:</label>
+			<label index="subject">Betreff:</label>
+			<label index="message">Ihre Nachricht:</label>
+			<label index="receivecopy">Ich möchte eine Kopie der Nachricht erhalten</label>
+			<label index="captcha">Captcha:</label>
+			<label index="submit">Absenden</label>
+
+			<label index="greetings">Hallo</label>
+			<label index="email_user_subject">Ihre Kontakt-Anfrage</label>
+			<label index="email_user_text">Wir haben Ihre Kontakt-Anfrage von www.fluid-template-manager.de erhalten. Wir werden uns in Kürze mit Ihnen in Verbindung setzen.</label>
+			<label index="email_user_footer">---------------------------------- Diese Nachricht wurde automatisiert erstellt. --------------------------------</label>
+
+			<label index="email_admin_subject">Kontakt-Anfrage</label>
+			<label index="email_admin_text">Kontakt-Anfrage von www.fluid-template-manager.de.</label>
+			<label index="email_admin_footer">---------------------------------- Diese Nachricht wurde automatisiert erstellt. --------------------------------</label>
+
+			<label index="error_firstname_required">Bitte geben Sie Ihren Vornamen ein!</label>
+			<label index="error_lastname_required">Bitte geben Sie Ihren Nachnamen ein!</label>
+			<label index="error_phone_required">Bitte geben Sie Ihre Telefonnummer ein!</label>
+			<label index="error_email_required">Bitte geben Sie Ihre E-Mailadresse ein!</label>
+			<label index="error_email_email">Bitte geben Sie eine korrekte E-Mailadresse ein!</label>
+			<label index="error_subject_required">Bitte wählen Sie einen Betreff aus!</label>
+			<label index="error_message_required">Bitte geben Sie eine Nachricht ein!</label>
+			<label index="error_mathguard_answer">Bitte lösen Sie die Rechenaufgabe!</label>
+		</languageKey>
+		
+	</data>
+</T3locallang>

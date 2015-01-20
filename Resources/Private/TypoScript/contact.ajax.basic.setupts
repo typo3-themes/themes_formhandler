@@ -1,0 +1,102 @@
+plugin.Tx_Formhandler.settings.predef.theme-bootstrap-contact-ajax-basic-form {
+
+	# This is the title of the predefined form shown in the dropdown box in the plugin options.
+	name = Contact-AJAX-Basic (Name, E-Mail, Message)
+
+	# Debug form
+	debug = {$themes.configuration.forms.debug}
+	
+	# All form fields are prefixed with this values (e.g. contact[name])
+	formValuesPrefix = contact-ajax-basic
+
+	langFile.1 = TEXT
+	langFile.1.value = {$themes.configuration.forms.contact.ajax.basic.languagePath}
+
+	templateFile = TEXT
+	templateFile.value = {$themes.configuration.forms.contact.ajax.basic.templatePath}ContactAjaxBasic/Step1.html
+
+	# The master template is a file containing the markup for specific field types or other sub templates (e.g. for emails). You can use these predefined markups in your HTML template for a specific form.
+	masterTemplateFile = TEXT
+	masterTemplateFile.value = {$themes.configuration.forms.contact.ajax.basic.templatePath}MasterTemplate.html
+	
+	# CSS files
+	cssFile {
+		#10 = TEXT
+		#10.value = {$formhandlerExamples.basic.ajax-submit.rootPath}/skin/css/bootstrap.min.css
+		#10.if.isTrue = {$formhandlerExamples.basic.ajax-submit.includeBootstrapCSS}
+		#20 = TEXT
+		#20.value = {$formhandlerExamples.basic.ajax-submit.rootPath}/skin/css/special.css
+	}
+	
+	# In case an error occurred, all markers ###is_error_[fieldname]### are filled with the configured value of the setting "default".
+	isErrorMarker {
+		default = has-error
+	}
+	
+	# These wraps define how an error messages looks like. The message itself is set in the lang file.
+	singleErrorTemplate {
+		totalWrap = <div class="help-block">|</div>
+	}
+
+	# This block defines the error checks performed when the user hits submit.
+	validators {
+		1.class = Validator_Default
+		1.config.fieldConf {
+			name.errorCheck.1 = required
+			email.errorCheck.1 = required
+			email.errorCheck.2 = email
+			message.errorCheck.1 = required
+		}
+	}
+	
+	ajax {
+		class = AjaxHandler_JQuery
+		config {
+			ajaxSubmit = 1
+		}
+	}
+
+	# Finishers are called after the form was submitted successfully (without errors).
+	finishers {
+
+		# Finisher_Mail sends emails to an admin and/or the user.
+		1.class = Finisher_Mail
+		1.config {
+			checkBinaryCrLf = message
+			admin {
+				templateFile = TEXT
+				templateFile.value = {$themes.configuration.forms.contact.ajax.basic.templatePath}ContactAjaxBasic/email-admin.html
+				sender_email = {$themes.configuration.forms.contact.ajax.basic.email.admin.sender_email}
+				to_email = {$themes.configuration.forms.contact.ajax.basic.email.admin.to_email}
+				subject = TEXT
+				subject.data = LLL:{$themes.configuration.forms.contact.ajax.basic.languagePath}:email_admin_subject
+			}
+		}
+
+		# Finisher_SubmittedOK will display a message after the form was submitted successfully.
+		5.class = Finisher_SubmittedOK
+		5.config {
+			returns = 1
+			templateFile = {$themes.configuration.forms.contact.ajax.basic.templatePath}ContactAjaxBasic/SubmittedOk.html
+		}
+	}
+
+}
+
+# If the user has chosen to receive a copy of the contact request, reconfigure Finisher_Mail to send an email to the user to.
+[globalVar = GP:contact-ajax-basic|receivecopy = 1]
+plugin.Tx_Formhandler.settings.predef.theme-bootstrap-contact-ajax-basic-form {
+	finishers {
+		1.config {
+			user {
+				templateFile = TEXT
+				templateFile.value = {$themes.configuration.forms.contact.ajax.basic.templatePath}ContactAjaxBasic/email-user.html
+				sender_email = {$themes.configuration.forms.contact.ajax.basic.email.user.sender_email}
+				to_email = email
+				subject = TEXT
+				subject.data = LLL:{$themes.configuration.forms.contact.ajax.basic.languagePath}:email_user_subject
+			}
+		}
+	}
+}
+[global]

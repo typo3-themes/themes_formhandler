@@ -1,0 +1,13 @@
+.Tx-Formhandler .mathguard pre {
+	overflow: hidden;
+	padding: 4px !important;
+}
+.Tx-Formhandler .mathguard a {
+	display: none;
+}
+.Tx-Formhandler .mathguard input {
+	border: 1px solid #e7e7e7;
+	border-left: 0 solid;
+	padding: 4px;
+	width: 30px !important;
+}
