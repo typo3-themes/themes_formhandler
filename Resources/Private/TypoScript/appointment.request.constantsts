@@ -1,4 +1,4 @@
-# customcategory=forms=Formulare
+# customcategory=forms=Theme: Form settings
 # customsubcategory=appointmentrequest=Theme-Bootstrap Formhandler Appointment Request Form
 
 themes.configuration.forms.appointment.request {

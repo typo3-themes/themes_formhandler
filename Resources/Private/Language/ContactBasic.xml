@@ -18,11 +18,11 @@
 
 			<label index="greetings">Dear</label>
 			<label index="email_user_subject">Your contact request</label>
-			<label index="email_user_text">We have received your request via the contact form on www.fluid-template-manager.de. We will process your request and get in contact with you soon.</label>
+			<label index="email_user_text">We have received your request via the contact form on www.hasenkamp.com. We will process your request and get in contact with you soon.</label>
 			<label index="email_user_footer">---------------------------------- This message was created automatically. --------------------------------</label>
 
 			<label index="email_admin_subject">Contact request</label>
-			<label index="email_admin_text">A user filled out the contact form on www.fluid-template-manager.de.</label>
+			<label index="email_admin_text">A user filled out the contact form on www.hasenkamp.com.</label>
 			<label index="email_admin_footer">---------------------------------- This message was created automatically. --------------------------------</label>
 
 			<label index="error_name_required">Please enter your name!</label>
@@ -45,11 +45,11 @@
 
 			<label index="greetings">Dear</label>
 			<label index="email_user_subject">Your contact request</label>
-			<label index="email_user_text">We have received your request via the contact form on www.fluid-template-manager.de. We will process your request and get in contact with you soon.</label>
+			<label index="email_user_text">We have received your request via the contact form on www.hasenkamp.com. We will process your request and get in contact with you soon.</label>
 			<label index="email_user_footer">---------------------------------- This message was created automatically. --------------------------------</label>
 
 			<label index="email_admin_subject">Contact request</label>
-			<label index="email_admin_text">A user filled out the contact form on www.fluid-template-manager.de.</label>
+			<label index="email_admin_text">A user filled out the contact form on www.hasenkamp.com.</label>
 			<label index="email_admin_footer">---------------------------------- This message was created automatically. --------------------------------</label>
 
 			<label index="error_name_required">Please enter your name!</label>
@@ -72,11 +72,11 @@
 
 			<label index="greetings">Hallo</label>
 			<label index="email_user_subject">Ihre Kontakt-Anfrage</label>
-			<label index="email_user_text">Wir haben Ihre Kontakt-Anfrage von www.fluid-template-manager.de erhalten. Wir werden uns in Kürze mit Ihnen in Verbindung setzen.</label>
+			<label index="email_user_text">Wir haben Ihre Kontakt-Anfrage von www.hasenkamp.com erhalten. Wir werden uns in Kürze mit Ihnen in Verbindung setzen.</label>
 			<label index="email_user_footer">---------------------------------- Diese Nachricht wurde automatisiert erstellt. --------------------------------</label>
 
 			<label index="email_admin_subject">Kontakt-Anfrage</label>
-			<label index="email_admin_text">Kontakt-Anfrage von www.fluid-template-manager.de.</label>
+			<label index="email_admin_text">Kontakt-Anfrage von www.hasenkamp.com.</label>
 			<label index="email_admin_footer">---------------------------------- Diese Nachricht wurde automatisiert erstellt. --------------------------------</label>
 
 			<label index="error_name_required">Bitte geben Sie Ihren Name ein!</label>

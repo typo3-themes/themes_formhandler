@@ -47,7 +47,7 @@
 				<target>Themes</target>
 			</trans-unit>
 			<trans-unit id="email_user_text" xml:space="preserve">
-				<source>We have received your request via the contact form on www.fluid-template-manager.de. We will process your request and get in contact with you soon.</source>
+				<source>We have received your request via the contact form on www.hasenkamp.com. We will process your request and get in contact with you soon.</source>
 				<target>Themes</target>
 			</trans-unit>
 			<trans-unit id="email_user_footer" xml:space="preserve">
@@ -60,7 +60,7 @@
 				<target>Themes</target>
 			</trans-unit>
 			<trans-unit id="email_admin_text" xml:space="preserve">
-				<source>A user filled out the contact form on www.fluid-template-manager.de.</source>
+				<source>A user filled out the contact form on www.hasenkamp.com.</source>
 				<target>Themes</target>
 			</trans-unit>
 			<trans-unit id="email_admin_footer" xml:space="preserve">
