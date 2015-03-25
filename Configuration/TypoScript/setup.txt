@@ -1,5 +1,3 @@
 # Add own error checks
-plugin.Tx_Formhandler.settings.additionalIncludePaths.1 = EXT:theme_bootstrap_formhandler/Classes/Finisher/
-plugin.Tx_Formhandler.settings.additionalIncludePaths.2 = EXT:theme_bootstrap_formhandler/Classes/Validator/ErrorChecks/
-
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_bootstrap_formhandler/Resources/Private/TypoScript" extensions="setupts">
+plugin.Tx_Formhandler.settings.additionalIncludePaths.1 = EXT:themes_bootstrap_formhandler/Classes/Finisher/
+plugin.Tx_Formhandler.settings.additionalIncludePaths.2 = EXT:themes_bootstrap_formhandler/Classes/Validator/ErrorChecks/

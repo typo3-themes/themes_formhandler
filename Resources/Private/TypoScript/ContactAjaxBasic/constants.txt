@@ -1,0 +1,26 @@
+# customcategory=forms=Theme: Form settings
+# customsubcategory=contactajaxbasic=Theme-Bootstrap Formhandler Basic Contact AJAX Form
+
+themes.configuration.forms.contact.ajax.basic {
+
+	# cat=forms,expert/contactajaxbasic/; type=string; label=Template root path: Path where the templates was saved to.
+	templatePath = EXT:themes_bootstrap_formhandler/Resources/Private/Templates/
+
+	# cat=forms,expert/contactajaxbasic/; type=string; label=Language file path: File/Path where the languages was saved to.
+	languagePath = EXT:themes_bootstrap_formhandler/Resources/Private/Language/ContactAjaxBasic.xml
+
+	email {
+
+		admin {
+
+			# cat=forms,basic/contactajaxbasic/; type=string; label=Admin email sender: Email address to use as sender address for the admin email.
+			sender_email =
+
+			# cat=forms,basic/contactajaxbasic/; type=string; label=Admin email recipient: Email address of an admin to receive the contact request.
+			to_email =
+		}
+	}
+
+	includeBootstrapCSS = 0
+	
+}
