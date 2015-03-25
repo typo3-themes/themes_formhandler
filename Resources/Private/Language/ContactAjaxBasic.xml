@@ -30,7 +30,7 @@
 			<label index="error_email_email">Please enter a valid email address!</label>
 			<label index="error_message_required">Please enter a message!</label>
 			<label index="error_mathguard_answer">Please solve the captcha!</label>
-			<label index="submitted_ok">Your message was successfully sent! We will contact you soon.</label>
+			<label index="submitted_ok">Your message has been sent successfully! We will contact you soon.</label>
 		</languageKey>
 
 		<languageKey index="en" type="array">
@@ -58,7 +58,7 @@
 			<label index="error_email_email">Please enter a valid email address!</label>
 			<label index="error_message_required">Please enter a message!</label>
 			<label index="error_mathguard_answer">Please solve the captcha!</label>
-			<label index="submitted_ok">Your message was successfully sent! We will contact you soon.</label>
+			<label index="submitted_ok">Your message has been sent successfully! We will contact you soon.</label>
 		</languageKey>
 
 

@@ -1,4 +1,4 @@
-plugin.Tx_Formhandler.settings.predef.theme-bootstrap-contact-medium-form {
+plugin.Tx_Formhandler.settings.predef.theme-contact-medium-form {
 
 	# This is the title of the predefined form shown in the dropdown box in the plugin options.
 	name = Contact-Medium (Firstname, Lastname, Phone, E-Mail, Message)
@@ -74,7 +74,7 @@ plugin.Tx_Formhandler.settings.predef.theme-bootstrap-contact-medium-form {
 
 # If the user has chosen to receive a copy of the contact request, reconfigure Finisher_Mail to send an email to the user to.
 [globalVar = GP:contact-medium|receivecopy = 1]
-plugin.Tx_Formhandler.settings.predef.theme-bootstrap-contact-medium-form {
+plugin.Tx_Formhandler.settings.predef.theme-contact-medium-form {
 	finishers {
 		1.config {
 			user {

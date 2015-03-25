@@ -11,13 +11,6 @@ themes.configuration.forms.contact.ajax.basic {
 
 	email {
 
-		user {
-
-			# cat=forms/contactajaxbasic/; type=string; label=ContactAjaxBasic: User email sender: Email address to use as sender address for the user email.
-			sender_email =
-
-		}
-
 		admin {
 
 			# cat=forms/contactajaxbasic/; type=string; label=ContactAjaxBasic: Admin email sender: Email address to use as sender address for the admin email.
@@ -27,10 +20,6 @@ themes.configuration.forms.contact.ajax.basic {
 			to_email =
 		}
 	}
-
-	# cat=forms/contactajaxbasic/; type=string; label=ContactAjaxBasic: Redirect Page: Page ID to redirect after successful form submission.
-	redirectPage =
-
 
 	includeBootstrapCSS = 0
 	

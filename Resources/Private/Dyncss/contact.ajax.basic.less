@@ -1,0 +1,124 @@
+#contact-ajax-form {
+  legend,
+  label,
+  .field-receivecopy {
+    display: none;
+  }
+  .col-sm-9 {
+    width: 100%;
+  }
+  input,
+  textarea {
+    padding-left: 50px;
+    box-shadow: none;
+    border-color: transparent;
+  }
+  input {
+    height: 40px;
+  }
+  .form-input-text,
+  .field-message {
+    > div {
+      &:before {
+        font-family: FontAwesome;
+        font-size: 20px;
+        line-height: 40px;
+        margin-left: 17px;
+        opacity: 0.33;
+        position: absolute;
+        -webkit-transition: opacity 0.3s, color 0.3s;
+                transition: opacity 0.3s, color 0.3s;
+      }
+    }
+    &:hover {
+      div {
+        &:before {
+          color: @brand-secondary;
+          opacity: 1;
+        }
+      }
+    }
+    &.has-error {
+      .form-control {
+        border-color: @brand-danger;
+      }
+    }
+  }
+  /* Icons Font Awesome  */
+  .field-name {
+    > div {
+      &:before {
+        content: "\f007"; /* fa-user */
+      }
+    }
+  }
+  .field-email {
+    > div {
+      &:before {
+        content: "\f0e0"; /* fa-envelope */
+      }
+    }
+  }
+  .field-message {
+    > div {
+      &:before {
+        content: "\f040"; /* fa-pencil */
+      }
+    }
+  }
+  
+  .form-input-submit {
+    .col-xs-12 {
+      > div {
+        -webkit-box-shadow: 0 0 0 2px #fff inset;
+        box-shadow: 0 0 0 2px #fff inset;
+        position: relative;
+        width: 170px;
+        height: 40px;
+        margin: 5px 0;
+        &:before {
+          background-color: #fff;
+          content: "";
+          display: block;
+          height: 0;
+          left: 0;
+          position: absolute;
+          right: 0;
+          top: 0;
+          -webkit-transition: height 0.25s ease 0s;
+                  transition: height 0.25s ease 0s;
+        }
+        &:hover {
+          &:before {
+            height: 100%;
+          }
+          input {
+            color: @text-color;
+            position: absolute;
+            z-index: 10;
+          }
+        }
+        .loading_ajax-submit {
+          display: none;
+          left: 10px;
+          position: absolute;
+          top: 13px;
+        }
+        input {
+          text-transform: uppercase;
+          color: #fff;
+          background-color: transparent;
+          font-size: 15px;
+          font-weight: 700;
+          line-height: 20px;
+          margin: 5px 0;
+          overflow: hidden;
+          padding: 10px 36px;
+          -webkit-transition: color 0.25s ease 0s, background-color 0.25s ease 0s, box-shadow 0.25s ease 0s;
+                  transition: color 0.25s ease 0s, background-color 0.25s ease 0s, box-shadow 0.25s ease 0s;
+          margin: 0;
+        }
+      }
+    }
+  }
+}

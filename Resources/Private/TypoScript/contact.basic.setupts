@@ -1,4 +1,4 @@
-plugin.Tx_Formhandler.settings.predef.theme-bootstrap-contact-basic-form {
+plugin.Tx_Formhandler.settings.predef.theme-contact-basic-form {
 
 	# This is the title of the predefined form shown in the dropdown box in the plugin options.
 	name = Contact-Basic (Name, E-Mail, Message)
@@ -85,7 +85,7 @@ plugin.Tx_Formhandler.settings.predef.theme-bootstrap-contact-basic-form {
 
 # If the user has chosen to receive a copy of the contact request, reconfigure Finisher_Mail to send an email to the user to.
 [globalVar = GP:contact-basic|receivecopy = 1]
-plugin.Tx_Formhandler.settings.predef.theme-bootstrap-contact-basic-form {
+plugin.Tx_Formhandler.settings.predef.theme-contact-basic-form {
 	finishers {
 		1.config {
 			user {

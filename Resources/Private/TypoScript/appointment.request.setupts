@@ -1,4 +1,4 @@
-plugin.Tx_Formhandler.settings.predef.theme-bootstrap-appointment-request-form {
+plugin.Tx_Formhandler.settings.predef.theme-appointment-request-form {
 
 	# This is the title of the predefined form shown in the dropdown box in the plugin options.
 	name = AppointmentRequest (Firstname, Lastname, Phone, E-Mail, Start/End Date/Time, Message)
@@ -74,7 +74,7 @@ plugin.Tx_Formhandler.settings.predef.theme-bootstrap-appointment-request-form {
 
 # If the user has chosen to receive a copy of the appointment request, reconfigure Finisher_Mail to send an email to the user to.
 [globalVar = GP:appointment-request|receivecopy = 1]
-	plugin.Tx_Formhandler.settings.predef.theme-bootstrap-appointment-request-form {
+	plugin.Tx_Formhandler.settings.predef.theme-appointment-request-form {
 		finishers {
 			1.config {
 				user {

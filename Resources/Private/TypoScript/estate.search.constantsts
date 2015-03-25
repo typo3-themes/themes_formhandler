@@ -1,0 +1,42 @@
+# customcategory=forms=Theme: Form settings
+# customsubcategory=estatesearch=Theme-Bootstrap Formhandler Estate-Search Form
+
+themes.configuration.forms.estate.search {
+
+	# cat=forms/estatesearch/; type=string; label=EstateSearch: Template root path: Path where the templates was saved to.
+	templatePath = EXT:theme_bootstrap_formhandler/Resources/Private/Templates/
+	
+	# cat=forms/estatesearch/; type=string; label=EstateSearch: Language file path: File/Path where the languages was saved to.
+	languagePath = EXT:theme_bootstrap_formhandler/Resources/Private/Language/EstateSearch.xml
+	
+	email {
+
+		user {
+
+			# cat=forms/estatesearch/; type=string; label=EstateSearch: User email sender: Email address to use as sender address for the user email.
+			sender_email = 
+
+		}
+
+		admin {
+
+			# cat=forms/estatesearch/; type=string; label=EstateSearch: Admin email sender: Email address to use as sender address for the admin email.
+			sender_email = 
+
+			# cat=forms/estatesearch/; type=string; label=EstateSearch: Admin email recipient: Email address of an admin to receive the contact request.
+			to_email = 
+		}
+	}
+
+	# cat=forms/estatesearch/; type=string; label=EstateSearch: Redirect Page: Page ID to redirect after successful form submission.
+	redirectPage = 
+
+	includeBasicCSS = 1
+
+	# cat=forms/estatesearch/; type=int+; label=EstateSearch: Pid of the Container for the subjects
+	subjectContainerPid = 0
+
+	# cat=forms/estatesearch/; type=int+; label=EstateSearch: Uid of the FrontendUser-Group for the subjects
+	subjectFrontendUserGroupUid = 0
+}
+

@@ -1,9 +1,9 @@
 # customcategory=forms=Formulare
-# customsubcategory=formsgeneral=Theme-Bootstrap Formhandler General
+# customsubcategory=formsgeneral=Themes-Bootstrap Formhandler General
 
 themes.configuration.forms {
-	# cat=forms/formsgeneral/; type=options[0,1]; label=Activate debugging!? (unset the redirect page in order to debug the finisher)
+	# cat=forms,expert/formsgeneral/; type=options[0,1]; label=Activate debugging!? (unset the redirect page in order to debug the finisher)
 	debug = 0
 }
 
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_bootstrap_formhandler/Resources/Private/TypoScript" extensions="constantsts">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:themes_bootstrap_formhandler/Resources/Private/TypoScript" extensions="constantsts">
