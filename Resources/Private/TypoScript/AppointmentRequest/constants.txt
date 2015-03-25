@@ -1,36 +1,34 @@
-# customcategory=forms=Theme: Form settings
-# customsubcategory=appointmentrequest=Theme-Bootstrap Formhandler Appointment Request Form
+# customcategory=forms=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.category
+# customsubcategory=appointmentrequest=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.subcategory_forms_appointmentrequest
 
 themes.configuration.forms.appointment.request {
 
-	# cat=forms,expert/appointmentrequest/; type=string; label=Template root path: Path where the templates was saved to.
+	# cat=forms,expert/appointmentrequest/; type=string; label=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.template_path
 	templatePath = EXT:themes_bootstrap_formhandler/Resources/Private/Templates/
 	
-	# cat=forms,expert/appointmentrequest/; type=string; label=Language file path: File/Path where the languages was saved to.
+	# cat=forms,expert/appointmentrequest/; type=string; label=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.language_path
 	languagePath = EXT:themes_bootstrap_formhandler/Resources/Private/Language/AppointmentRequest.xml
 	
 	email {
 
 		user {
 
-			# cat=forms,basic/appointmentrequest/; type=string; label=User email sender: Email address to use as sender address for the user email.
+			# cat=forms,basic/appointmentrequest/; type=string; label=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.email_user_sender_email
 			sender_email = 
-
 		}
 
 		admin {
 
-			# cat=forms,basic/appointmentrequest/; type=string; label=Admin email sender: Email address to use as sender address for the admin email.
+			# cat=forms,basic/appointmentrequest/; type=string; label=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.email_admin_sender_email
 			sender_email = 
 
-			# cat=forms,basic/appointmentrequest/; type=string; label=Admin email recipient: Email address of an admin to receive the contact request.
+			# cat=forms,basic/appointmentrequest/; type=string; label=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.email_admin_to_email
 			to_email = 
 		}
 	}
 
-	# cat=forms,basic/appointmentrequest/; type=string; label=Redirect Page: Page ID to redirect after successful form submission.
-	redirectPage = 
+	# cat=forms,basic/appointmentrequest/; type=string; label=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.redirect_page
+	redirectPage = 0
 
-	includeBasicCSS = 1
 }
 

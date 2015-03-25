@@ -1,7 +1,7 @@
-# customcategory=forms=Formulare
-# customsubcategory=formsgeneral=Themes-Bootstrap Formhandler General
+# customcategory=forms=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.category
+# customsubcategory=formsgeneral=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.subcategory_forms_general
 
 themes.configuration.forms {
-	# cat=forms,expert/formsgeneral/; type=options[0,1]; label=Activate debugging!? (unset the redirect page in order to debug the finisher)
+	# cat=forms,expert/formsgeneral/; type=options[0,1]; label=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.forms_debug
 	debug = 0
 }

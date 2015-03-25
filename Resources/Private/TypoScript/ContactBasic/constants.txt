@@ -1,36 +1,33 @@
-# customcategory=forms=Theme: Form settings
-# customsubcategory=contactbasic=Theme-Bootstrap Formhandler Basic Contact Form
+# customcategory=forms=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.category
+# customsubcategory=contactbasic=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.subcategory_forms_contactbasic
 
 themes.configuration.forms.contact.basic {
 
-	# cat=forms,expert/contactbasic/; type=string; label=Template root path: Path where the templates was saved to.
+	# cat=forms,expert/contactbasic/; type=string; label=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.template_path
 	templatePath = EXT:themes_bootstrap_formhandler/Resources/Private/Templates/
 	
-	# cat=forms,expert/contactbasic/; type=string; label=Language file path: File/Path where the languages was saved to.
+	# cat=forms,expert/contactbasic/; type=string; label=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.language_path
 	languagePath = EXT:themes_bootstrap_formhandler/Resources/Private/Language/ContactBasic.xml
 	
 	email {
 
 		user {
 
-			# cat=forms,basic/contactbasic/; type=string; label=User email sender: Email address to use as sender address for the user email.
+			# cat=forms,basic/contactbasic/; type=string; label=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.email_user_sender_email
 			sender_email = 
-
 		}
 
 		admin {
 
-			# cat=forms,basic/contactbasic/; type=string; label=Admin email sender: Email address to use as sender address for the admin email.
+			# cat=forms,basic/contactbasic/; type=string; label=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.email_admin_sender_email
 			sender_email = 
 
-			# cat=forms,basic/contactbasic/; type=string; label=Admin email recipient: Email address of an admin to receive the contact request.
+			# cat=forms,basic/contactbasic/; type=string; label=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.email_admin_to_email
 			to_email = 
 		}
 	}
 
-	# cat=forms,basic/contactbasic/; type=string; label=Redirect Page: Page ID to redirect after successful form submission.
-	redirectPage = 
-
-	includeBasicCSS = 1
+	# cat=forms,basic/contactbasic/; type=string; label=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.redirect_page
+	redirectPage = 0
 }
 

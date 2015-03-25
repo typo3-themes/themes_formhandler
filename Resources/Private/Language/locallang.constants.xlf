@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-07-13T17:08:58Z" product-name="themes_bootstrap_formhandler">
+		<header/>
+		<body>
+
+			<!-- Constants -->
+			<trans-unit id="tx_themesbootstrapformhandler_constants.category">
+				<source>Theme: Form settings</source>
+			</trans-unit>
+			<trans-unit id="tx_themesbootstrapformhandler_constants.subcategory_forms_general">
+				<source>Theme: Form settings general</source>
+			</trans-unit>
+			<trans-unit id="tx_themesbootstrapformhandler_constants.forms_debug">
+				<source>Activate debugging: (unset the redirect page in order to debug the finisher)</source>
+			</trans-unit>
+			<trans-unit id="tx_themesbootstrapformhandler_constants.subcategory_forms_estatesearch">
+				<source>Theme-Bootstrap Formhandler Estate-Search Form</source>
+			</trans-unit>
+			<trans-unit id="tx_themesbootstrapformhandler_constants.subcategory_forms_contactmedium">
+				<source>Theme-Bootstrap Formhandler Medium Contact Form</source>
+			</trans-unit>
+			<trans-unit id="tx_themesbootstrapformhandler_constants.subcategory_forms_appointmentrequest">
+				<source>Theme-Bootstrap Formhandler Appointment Request Form</source>
+			</trans-unit>
+			<trans-unit id="tx_themesbootstrapformhandler_constants.subcategory_forms_contactadvanced">
+				<source>Theme-Bootstrap Formhandler Advanced Contact Form</source>
+			</trans-unit>
+			<trans-unit id="tx_themesbootstrapformhandler_constants.subcategory_forms_contactajaxbasic">
+				<source>Theme-Bootstrap Formhandler Basic Contact AJAX Form</source>
+			</trans-unit>
+			<trans-unit id="tx_themesbootstrapformhandler_constants.subcategory_forms_contactbasic">
+				<source>Theme-Bootstrap Formhandler Basic Contact Form</source>
+			</trans-unit>
+
+
+			<trans-unit id="tx_themesbootstrapformhandler_constants.template_path">
+				<source>Template root path: Path where the templates was saved to.</source>
+			</trans-unit>
+			<trans-unit id="tx_themesbootstrapformhandler_constants.language_path">
+				<source>Language file path: File/Path where the languages was saved to.</source>
+			</trans-unit>
+
+			<trans-unit id="tx_themesbootstrapformhandler_constants.email_user_sender_email">
+				<source>User email sender: Email address to use as sender address for the user email.</source>
+			</trans-unit>
+			<trans-unit id="tx_themesbootstrapformhandler_constants.email_admin_sender_email">
+				<source>Admin email sender: Email address to use as sender address for the admin email.</source>
+			</trans-unit>
+			<trans-unit id="tx_themesbootstrapformhandler_constants.email_admin_to_email">
+				<source>Admin email recipient: Email address of an admin to receive the contact request.</source>
+			</trans-unit>
+			<trans-unit id="tx_themesbootstrapformhandler_constants.redirect_page">
+				<source>Redirect Page: Page ID to redirect after successful form submission.</source>
+			</trans-unit>
+			<trans-unit id="tx_themesbootstrapformhandler_constants.subject_container_pid">
+				<source>Pid of the Container for the subjects</source>
+			</trans-unit>
+			<trans-unit id="tx_themesbootstrapformhandler_constants.subject_frontend_user_group_uid">
+				<source>Uid of the FrontendUser-Group for the subjects</source>
+			</trans-unit>
+
+			
+		</body>
+	</file>
+</xliff>
