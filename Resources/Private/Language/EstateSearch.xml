@@ -7,7 +7,7 @@
 
 		<languageKey index="default" type="array">
 
-			<label index="section-personaldata">Personal data</label>
+			<label index="section-personaldata">Personal Data</label>
 			<label index="section-subject">Object</label>
 			<label index="section-size">Size (in square meters)</label>
 			<label index="section-notice">Notice</label>
@@ -83,5 +83,44 @@
             <label index="error_message_required">Bitte geben Sie Ihre Nachricht ein!</label>
 		</languageKey>
 
-	</data>
+        <languageKey index="en" type="array">
+
+            <label index="section-personaldata">Personal Data</label>
+            <label index="section-subject">Object</label>
+            <label index="section-size">Size (in square meters)</label>
+            <label index="section-notice">Notice</label>
+            <label index="section-copy">Copy</label>
+            <label index="section-buttons"> </label>
+
+            <label index="firstname">First Name:</label>
+            <label index="lastname">Last Name:</label>
+            <label index="streetandno">Street and no.:</label>
+            <label index="postalcode">Postal code:</label>
+            <label index="city">City:</label>
+            <label index="phone">Phone:</label>
+            <label index="email">Email:</label>
+            <label index="subject">Subject:</label>
+            <label index="location">Location:</label>
+            <label index="sizefrom">from:</label>
+            <label index="sizeto">to:</label>
+            <label index="notice">Your Notices:</label>
+            <label index="receivecopy">I want to receive a copy of this request</label>
+            <label index="submit">Send</label>
+
+            <label index="greetings">Dear</label>
+            <label index="email_user_subject">Your contact request</label>
+            <label index="email_user_text">We have received your request via the contact form on www.typo3-themes.org. We will process your request and get in contact with you soon.</label>
+            <label index="email_user_footer">---------------------------------- This message was created automatically. --------------------------------</label>
+
+            <label index="email_admin_subject">Contact request</label>
+            <label index="email_admin_text">A user filled out the contact form on www.typo3-themes.org.</label>
+            <label index="email_admin_footer">---------------------------------- This message was created automatically. --------------------------------</label>
+
+            <label index="error_name_required">Please enter your name!</label>
+            <label index="error_email_required">Please enter your email address!</label>
+            <label index="error_email_email">Please enter a valid email address!</label>
+            <label index="error_message_required">Please enter a message!</label>
+        </languageKey>
+
+    </data>
 </T3locallang>

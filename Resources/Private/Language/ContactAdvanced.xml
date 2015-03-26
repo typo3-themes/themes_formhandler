@@ -7,14 +7,20 @@
 		
 		<languageKey index="default" type="array">
 			<label index="label_fieldset">Contact Form</label>
+
+            <label index="section-personaldata">Personal Data</label>
 			<label index="firstname">First name:</label>
 			<label index="lastname">Last name:</label>
 			<label index="phone">Phone:</label>
 			<label index="email">Email:</label>
 			<label index="subject">Subject:</label>
 			<label index="message">Your Message:</label>
+
+            <label index="section-copy">Copy</label>
 			<label index="receivecopy">I want to receive a copy of this request</label>
 			<label index="captcha">Captcha:</label>
+
+            <label index="section-buttons">Send</label>
 			<label index="submit">Send</label>
 
 			<label index="greetings">Dear</label>
@@ -38,14 +44,20 @@
 
 		<languageKey index="de" type="array">
 			<label index="label_fieldset">Kontakt Formular</label>
+
+            <label index="section-personaldata">Persönliche Daten</label>
 			<label index="firstname">Vorname:</label>
 			<label index="lastname">Nachname:</label>
 			<label index="phone">Telefon:</label>
 			<label index="email">E-Mail:</label>
 			<label index="subject">Betreff:</label>
 			<label index="message">Ihre Nachricht:</label>
+
+            <label index="section-copy">Kopie</label>
 			<label index="receivecopy">Ich möchte eine Kopie der Nachricht erhalten</label>
 			<label index="captcha">Captcha:</label>
+
+            <label index="section-buttons">Senden</label>
 			<label index="submit">Absenden</label>
 
             <label index="greetings">Hallo</label>
@@ -69,14 +81,20 @@
 
         <languageKey index="en" type="array">
             <label index="label_fieldset">Contact Form</label>
+
+            <label index="section-personaldata">Personal Data</label>
             <label index="firstname">First name:</label>
             <label index="lastname">Last name:</label>
             <label index="phone">Phone:</label>
             <label index="email">Email:</label>
             <label index="subject">Subject:</label>
             <label index="message">Your Message:</label>
+
+            <label index="section-copy">Copy</label>
             <label index="receivecopy">I want to receive a copy of this request</label>
             <label index="captcha">Captcha:</label>
+
+            <label index="section-buttons">Send</label>
             <label index="submit">Send</label>
 
             <label index="greetings">Dear</label>

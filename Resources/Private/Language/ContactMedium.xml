@@ -15,7 +15,7 @@
 			<label index="email">Email:</label>
 			<label index="message">Your Message:</label>
 
-            <label index="section-confirmation">Confirmation</label>
+            <label index="section-copy">Copy</label>
 			<label index="receivecopy">I want to receive a copy of this request</label>
 
             <label index="section-buttons">Send</label>
@@ -47,7 +47,7 @@
 			<label index="email">E-Mail:</label>
 			<label index="message">Ihre Nachricht:</label>
 
-            <label index="section-confirmation">Bestätigung</label>
+            <label index="section-copy">Kopie</label>
 			<label index="receivecopy">Ich möchte eine Kopie der Nachricht erhalten</label>
 
             <label index="section-buttons">Senden</label>
@@ -78,10 +78,10 @@
             <label index="email">Email:</label>
             <label index="message">Your Message:</label>
 
-            <label index="section-confirmation">Confirmation</label>
+            <label index="section-copy">Copy</label>
             <label index="receivecopy">I want to receive a copy of this request</label>
 
-            <label index="section-buttons">Senden</label>
+            <label index="section-buttons">Send</label>
             <label index="submit">Send</label>
 
             <label index="greetings">Dear</label>
