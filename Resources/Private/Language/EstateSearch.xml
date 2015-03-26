@@ -7,20 +7,20 @@
 
 		<languageKey index="default" type="array">
 
-			<label index="section-personaldata">Personal data</label>
-			<label index="section-subject">Objekt</label>
+			<label index="section-personaldata">Personal Data</label>
+			<label index="section-subject">Object</label>
 			<label index="section-size">Size (in square meters)</label>
 			<label index="section-notice">Notice</label>
 			<label index="section-copy">Copy</label>
 			<label index="section-buttons"> </label>
 			
-			<label index="firstname">Firstname:</label>
-			<label index="lastname">Lastname:</label>
+			<label index="firstname">First Name:</label>
+			<label index="lastname">Last Name:</label>
 			<label index="streetandno">Street and no.:</label>
-			<label index="postalcode">Postal-code:</label>
+			<label index="postalcode">Postal code:</label>
 			<label index="city">City:</label>
 			<label index="phone">Phone:</label>
-			<label index="email">E-Mail:</label>
+			<label index="email">Email:</label>
 			<label index="subject">Subject:</label>
 			<label index="location">Location:</label>
 			<label index="sizefrom">from:</label>
@@ -31,11 +31,11 @@
 
 			<label index="greetings">Dear</label>
 			<label index="email_user_subject">Your contact request</label>
-			<label index="email_user_text">We have received your request via the contact form on www.hasenkamp.com. We will process your request and get in contact with you soon.</label>
+			<label index="email_user_text">We have received your request via the contact form on www.typo3-themes.org. We will process your request and get in contact with you soon.</label>
 			<label index="email_user_footer">---------------------------------- This message was created automatically. --------------------------------</label>
 
 			<label index="email_admin_subject">Contact request</label>
-			<label index="email_admin_text">A user filled out the contact form on www.hasenkamp.com.</label>
+			<label index="email_admin_text">A user filled out the contact form on www.typo3-themes.org.</label>
 			<label index="email_admin_footer">---------------------------------- This message was created automatically. --------------------------------</label>
 
 			<label index="error_name_required">Please enter your name!</label>
@@ -51,7 +51,7 @@
 			<label index="section-size">Größe in qm</label>
 			<label index="section-notice">Bemerkung</label>
 			<label index="section-copy">Kopie</label>
-			<label index="section-buttons"> </label>
+			<label index="section-buttons">Senden</label>
 			
 			<label index="firstname">Vorname:</label>
 			<label index="lastname">Nachname:</label>
@@ -68,20 +68,59 @@
 			<label index="receivecopy">Ich möchte eine Kopie der Anfrage erhalten</label>
 			<label index="submit">senden</label>
 
-			<label index="greetings">Dear</label>
-			<label index="email_user_subject">Your contact request</label>
-			<label index="email_user_text">We have received your request via the contact form on www.hasenkamp.com. We will process your request and get in contact with you soon.</label>
-			<label index="email_user_footer">---------------------------------- This message was created automatically. --------------------------------</label>
+            <label index="greetings">Hallo</label>
+            <label index="email_user_subject">Ihre Kontaktanfrage</label>
+            <label index="email_user_text">Wir haben Ihre Anfrage durch das Kontaktformular auf www.typo3-themes.org erhalten. Wir werden diese bearbeiten und uns mit Ihnen in Verbindung setzen.</label>
+            <label index="email_user_footer">---------------------------------- Diese Nachicht wurde automatisch generiert. --------------------------------</label>
 
-			<label index="email_admin_subject">Contact request</label>
-			<label index="email_admin_text">A user filled out the contact form on www.hasenkamp.com.</label>
-			<label index="email_admin_footer">---------------------------------- This message was created automatically. --------------------------------</label>
+            <label index="email_admin_subject">Kontaktanfrage</label>
+            <label index="email_admin_text">Ein Benutzer hat das Kontaktformular auf www.typo3-themes.org ausgefüllt.</label>
+            <label index="email_admin_footer">---------------------------------- Diese Nachicht wurde automatisch generiert. --------------------------------</label>
 
-			<label index="error_name_required">Please enter your name!</label>
-			<label index="error_email_required">Please enter your email address!</label>
-			<label index="error_email_email">Please enter a valid email address!</label>
-			<label index="error_message_required">Please enter a message!</label>
+            <label index="error_name_required">Bitte geben Sie Ihren Namen ein!</label>
+            <label index="error_email_required">Bitte geben Sie Ihre E-Mail ein!</label>
+            <label index="error_email_email">Bitte geben Sie eine gültige E-Mail ein!</label>
+            <label index="error_message_required">Bitte geben Sie Ihre Nachricht ein!</label>
 		</languageKey>
 
-	</data>
+        <languageKey index="en" type="array">
+
+            <label index="section-personaldata">Personal Data</label>
+            <label index="section-subject">Object</label>
+            <label index="section-size">Size (in square meters)</label>
+            <label index="section-notice">Notice</label>
+            <label index="section-copy">Copy</label>
+            <label index="section-buttons"> </label>
+
+            <label index="firstname">First Name:</label>
+            <label index="lastname">Last Name:</label>
+            <label index="streetandno">Street and no.:</label>
+            <label index="postalcode">Postal code:</label>
+            <label index="city">City:</label>
+            <label index="phone">Phone:</label>
+            <label index="email">Email:</label>
+            <label index="subject">Subject:</label>
+            <label index="location">Location:</label>
+            <label index="sizefrom">from:</label>
+            <label index="sizeto">to:</label>
+            <label index="notice">Your Notices:</label>
+            <label index="receivecopy">I want to receive a copy of this request</label>
+            <label index="submit">Send</label>
+
+            <label index="greetings">Dear</label>
+            <label index="email_user_subject">Your contact request</label>
+            <label index="email_user_text">We have received your request via the contact form on www.typo3-themes.org. We will process your request and get in contact with you soon.</label>
+            <label index="email_user_footer">---------------------------------- This message was created automatically. --------------------------------</label>
+
+            <label index="email_admin_subject">Contact request</label>
+            <label index="email_admin_text">A user filled out the contact form on www.typo3-themes.org.</label>
+            <label index="email_admin_footer">---------------------------------- This message was created automatically. --------------------------------</label>
+
+            <label index="error_name_required">Please enter your name!</label>
+            <label index="error_email_required">Please enter your email address!</label>
+            <label index="error_email_email">Please enter a valid email address!</label>
+            <label index="error_message_required">Please enter a message!</label>
+        </languageKey>
+
+    </data>
 </T3locallang>
