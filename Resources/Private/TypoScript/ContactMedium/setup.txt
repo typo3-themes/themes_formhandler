@@ -1,4 +1,4 @@
-plugin.Tx_Formhandler.settings.predef.theme-contact-medium-form {
+plugin.Tx_Formhandler.settings.predef.themes-contact-medium-form {
 
 	# This is the title of the predefined form shown in the dropdown box in the plugin options.
 	name = Contact-Medium (Firstname, Lastname, Phone, E-Mail, Message)
@@ -17,15 +17,10 @@ plugin.Tx_Formhandler.settings.predef.theme-contact-medium-form {
 
 	# The master template is a file containing the markup for specific field types or other sub templates (e.g. for emails). You can use these predefined markups in your HTML template for a specific form.
 	masterTemplateFile = TEXT
-	masterTemplateFile.value = {$themes.configuration.forms.contact.medium.templatePath}MasterTemplate.html
+	masterTemplateFile.value = {$themes.configuration.forms.contact.medium.templatePath}MasterTemplate/MasterTemplate{$themes.framework}.html
 
 	# CSS files
 	cssFile {
-		10 = TEXT
-		10.value = {$themes.configuration.forms.contact.medium.rootPath}/skin/css/bootstrap.min.css
-		10.if.isTrue = {$themes.configuration.forms.contact.medium.includeBasicCSS}
-		20 = TEXT
-		20.value = {$themes.configuration.forms.contact.medium.rootPath}/skin/css/special.css
 	}	
 	
 	# In case an error occurred, all markers ###is_error_[fieldname]### are filled with the configured value of the setting "default".
@@ -74,7 +69,7 @@ plugin.Tx_Formhandler.settings.predef.theme-contact-medium-form {
 
 # If the user has chosen to receive a copy of the contact request, reconfigure Finisher_Mail to send an email to the user to.
 [globalVar = GP:contact-medium|receivecopy = 1]
-plugin.Tx_Formhandler.settings.predef.theme-contact-medium-form {
+plugin.Tx_Formhandler.settings.predef.themes-contact-medium-form {
 	finishers {
 		1.config {
 			user {

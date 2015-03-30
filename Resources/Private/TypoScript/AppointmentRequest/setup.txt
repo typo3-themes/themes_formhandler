@@ -1,4 +1,4 @@
-plugin.Tx_Formhandler.settings.predef.theme-appointment-request-form {
+plugin.Tx_Formhandler.settings.predef.themes-appointment-request-form {
 
 	# This is the title of the predefined form shown in the dropdown box in the plugin options.
 	name = AppointmentRequest (Firstname, Lastname, Phone, E-Mail, Start/End Date/Time, Message)
@@ -17,15 +17,10 @@ plugin.Tx_Formhandler.settings.predef.theme-appointment-request-form {
 
 	# The master template is a file containing the markup for specific field types or other sub templates (e.g. for emails). You can use these predefined markups in your HTML template for a specific form.
 	masterTemplateFile = TEXT
-	masterTemplateFile.value = {$themes.configuration.forms.appointment.request.templatePath}MasterTemplate{$themes.framework}.html
+	masterTemplateFile.value = {$themes.configuration.forms.appointment.request.templatePath}MasterTemplate/MasterTemplate{$themes.framework}.html
 
 	# CSS files
 	cssFile {
-		10 = TEXT
-		10.value = {$themes.configuration.forms.appointment.request.rootPath}/skin/css/bootstrap.min.css
-		10.if.isTrue = {$themes.configuration.forms.appointment.request.includeBasicCSS}
-		20 = TEXT
-		20.value = {$themes.configuration.forms.appointment.request.rootPath}/skin/css/special.css
 	}
 
 	# In case an error occurred, all markers ###is_error_[fieldname]### are filled with the configured value of the setting "default".
@@ -74,7 +69,7 @@ plugin.Tx_Formhandler.settings.predef.theme-appointment-request-form {
 
 # If the user has chosen to receive a copy of the appointment request, reconfigure Finisher_Mail to send an email to the user to.
 [globalVar = GP:appointment-request|receivecopy = 1]
-	plugin.Tx_Formhandler.settings.predef.theme-appointment-request-form {
+	plugin.Tx_Formhandler.settings.predef.themes-appointment-request-form {
 		finishers {
 			1.config {
 				user {

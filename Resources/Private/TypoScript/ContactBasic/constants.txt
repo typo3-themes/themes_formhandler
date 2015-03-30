@@ -1,33 +1,33 @@
-# customcategory=forms=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.category
-# customsubcategory=contactbasic=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.subcategory_forms_contactbasic
+# customcategory=forms=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.category
+# customsubcategory=contactbasic=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.subcategory_forms_contactbasic
 
 themes.configuration.forms.contact.basic {
 
-	# cat=forms,expert/contactbasic/; type=string; label=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.template_path
-	templatePath = EXT:themes_bootstrap_formhandler/Resources/Private/Templates/
+	# cat=forms,expert/contactbasic/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.template_path
+	templatePath = EXT:themes_formhandler/Resources/Private/Templates/
 	
-	# cat=forms,expert/contactbasic/; type=string; label=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.language_path
-	languagePath = EXT:themes_bootstrap_formhandler/Resources/Private/Language/ContactBasic.xml
+	# cat=forms,expert/contactbasic/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.language_path
+	languagePath = EXT:themes_formhandler/Resources/Private/Language/ContactBasic.xml
 	
 	email {
 
 		user {
 
-			# cat=forms,basic/contactbasic/; type=string; label=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.email_user_sender_email
+			# cat=forms,basic/contactbasic/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.email_user_sender_email
 			sender_email = 
 		}
 
 		admin {
 
-			# cat=forms,basic/contactbasic/; type=string; label=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.email_admin_sender_email
+			# cat=forms,basic/contactbasic/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.email_admin_sender_email
 			sender_email = 
 
-			# cat=forms,basic/contactbasic/; type=string; label=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.email_admin_to_email
+			# cat=forms,basic/contactbasic/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.email_admin_to_email
 			to_email = 
 		}
 	}
 
-	# cat=forms,basic/contactbasic/; type=string; label=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.redirect_page
+	# cat=forms,basic/contactbasic/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.redirect_page
 	redirectPage = 0
 }
 

@@ -1,22 +1,22 @@
-# customcategory=forms=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.category
-# customsubcategory=contactajaxbasic=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.subcategory_forms_contactajaxbasic
+# customcategory=forms=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.category
+# customsubcategory=contactajaxbasic=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.subcategory_forms_contactajaxbasic
 
 themes.configuration.forms.contact.ajax.basic {
 
-	# cat=forms,expert/contactajaxbasic/; type=string; label=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.template_path
-	templatePath = EXT:themes_bootstrap_formhandler/Resources/Private/Templates/
+	# cat=forms,expert/contactajaxbasic/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.template_path
+	templatePath = EXT:themes_formhandler/Resources/Private/Templates/
 
-	# cat=forms,expert/contactajaxbasic/; type=string; label=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.language_path
-	languagePath = EXT:themes_bootstrap_formhandler/Resources/Private/Language/ContactAjaxBasic.xml
+	# cat=forms,expert/contactajaxbasic/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.language_path
+	languagePath = EXT:themes_formhandler/Resources/Private/Language/ContactAjaxBasic.xml
 
 	email {
 
 		admin {
 
-			# cat=forms,basic/contactajaxbasic/; type=string; label=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.email_admin_sender_email
+			# cat=forms,basic/contactajaxbasic/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.email_admin_sender_email
 			sender_email =
 
-			# cat=forms,basic/contactajaxbasic/; type=string; label=LLL:EXT:themes_bootstrap_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesbootstrapformhandler_constants.email_admin_to_email
+			# cat=forms,basic/contactajaxbasic/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.email_admin_to_email
 			to_email =
 		}
 	}

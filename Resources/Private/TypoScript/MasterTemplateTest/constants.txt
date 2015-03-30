@@ -1,13 +1,13 @@
 # customcategory=forms=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.category
 # customsubcategory=estatesearch=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.subcategory_forms_estatesearch
 
-themes.configuration.forms.estate.search {
+themes.configuration.forms.master.template.test {
 
 	# cat=forms,expert/estatesearch/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.template_path
 	templatePath = EXT:themes_formhandler/Resources/Private/Templates/
 	
 	# cat=forms,expert/estatesearch/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.language_path
-	languagePath = EXT:themes_formhandler/Resources/Private/Language/EstateSearch.xml
+	languagePath = EXT:themes_formhandler/Resources/Private/Language/MasterTemplateTest.xml
 	
 	email {
 

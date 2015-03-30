@@ -11,8 +11,8 @@
 ########################################################################
 
 $EM_CONF[$_EXTKEY] = array(
-	'title' => 'Bootstrap Theme - Formhandler forms',
-	'description' => 'Formhandler forms for Theme-Bootstrap',
+	'title' => 'Themes - Formhandler forms (Bootstrap, Foundation)',
+	'description' => 'Formhandler forms for TYPO3-Themes',
 	'category' => 'frontend',
 	'shy' => 0,
 	'version' => '1.1.0',
@@ -36,7 +36,7 @@ $EM_CONF[$_EXTKEY] = array(
 		'depends' => array(
 			'php'    => '5.2.0-0.0.0',
 			'typo3'  => '6.2.0-6.2.99',
-			'theme_bootstrap' => '1.0.0-2.9.99',
+			'themes' => '1.0.0-2.9.99',
 			'formhandler' => '2.0.1-2.0.1',
 		),
 		'conflicts' => array(

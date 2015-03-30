@@ -35,8 +35,9 @@
 <!-- ###master_inputdate### -->
 
 <!-- ###master_textarea### -->
-<div class="form-group ###is_error_###fieldname###### field-###fieldname###">
-	<label class="col-sm-3 control-label ###is_error_###fieldname######" for="###fieldname###" ###is_error_###fieldname######>###LLL:###fieldname###### ###required_###fieldname######</label>
+<div class="form-group form-textarea ###is_error_###fieldname###### field-###fieldname###">
+	<label class="col-sm-3 control-label ###is_error_###fieldname######" 
+		   for="###fieldname###" ###is_error_###fieldname######>###LLL:###fieldname###### ###required_###fieldname######</label>
 	<div class="col-sm-9">
 		<textarea class="form-control ###is_error_###fieldname######" 
 				  rows="5" 
@@ -49,37 +50,32 @@
 </div>
 <!-- ###master_textarea### -->
 
-<!-- ###master_input_ajax### -->
-<div class="form-group ajax ###is_error_###fieldname###### field-###fieldname###">
-	<div class="col-sm-3">
-		<div class="row">
-			<label class="col-xs-10 control-label" for="###fieldname###">###LLL:###fieldname###### ###required_###fieldname######</label>
-			<div class="col-xs-2">
-				###validate_###fieldname######
-			</div>
+<!-- ###master_checkbox### -->
+<div class="form-group form-checkbox ###is_error_###fieldname###### field-###fieldname###">
+	<div class="col-sm-offset-3 col-sm-9">
+		<div class="checkbox">
+			<label for="###fieldname###"
+				   class="###is_error_###fieldname######"
+				   ###is_error_###fieldname######>
+				<input type="checkbox" 
+					   id="###fieldname###" 
+					   name="###formValuesPrefix###[###fieldname###]" 
+					   value="1" 
+					   ###checked_###fieldname###_1### />
+				###LLL:###fieldname###### ###required_###fieldname######</label>
+			###error_###fieldname######
 		</div>
 	</div>
-	<div class="col-sm-9">
-		<input class="form-control" type="text" size="20" id="###fieldname###" name="###formValuesPrefix###[###fieldname###]" value="###value_###fieldname######"/>
-	</div>
 </div>
-<!-- ###master_input_ajax### -->
+<!-- ###master_checkbox### -->
 
-<!-- ###master_textarea_ajax### -->
-<div class="form-group ajax ###is_error_###fieldname###### field-###fieldname###">
-	<div class="col-sm-3">
-		<div class="row">
-			<label class="col-xs-10 control-label " for="###fieldname###">###LLL:###fieldname###### ###required_###fieldname######</label>
-			<div class="col-xs-2">
-				###validate_###fieldname######
-			</div>
-		</div>
-	</div>
-	<div class="col-sm-9">
-		<textarea class="form-control" rows="3" cols="30" id="###fieldname###" name="###formValuesPrefix###[###fieldname###]">###value_###fieldname######</textarea>
-	</div>
-</div>
-<!-- ###master_textarea_ajax### -->
+
+
+
+
+
+
+
 
 <!-- ###master_advanced_subject### -->
 <div class="form-group ###is_error_subject###">
@@ -206,19 +202,6 @@
 	</div>
 </div>
 <!-- ###master_basicfile### -->
-
-<!-- ###master_checkbox### -->
-<div class="form-group form-input-checkbox field-###fieldname###">
-	<div class="col-sm-offset-3 col-sm-9">
-		<div class="checkbox">
-			<label for="###fieldname###">
-				<input type="checkbox" id="###fieldname###" name="###formValuesPrefix###[###fieldname###]" value="1" ###checked_###fieldname###_1### />
-				###LLL:###fieldname###### </label>
-			###error_###fieldname######
-		</div>
-	</div>
-</div>
-<!-- ###master_checkbox### -->
 
 <!-- ###master_spamprotection-captcha### -->
 <div class="form-group ###is_error_captchafield###">
@@ -444,3 +427,36 @@
 			<td>###value_###fieldname######</td>
 		</tr>
 		<!-- ###master_email-line-html### -->
+
+
+<!-- ###master_input_ajax### -->
+<div class="form-group ajax ###is_error_###fieldname###### field-###fieldname###">
+	<div class="col-sm-3">
+		<div class="row">
+			<label class="col-xs-10 control-label" for="###fieldname###">###LLL:###fieldname###### ###required_###fieldname######</label>
+			<div class="col-xs-2">
+				###validate_###fieldname######
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-9">
+		<input class="form-control" type="text" size="20" id="###fieldname###" name="###formValuesPrefix###[###fieldname###]" value="###value_###fieldname######"/>
+	</div>
+</div>
+<!-- ###master_input_ajax### -->
+
+<!-- ###master_textarea_ajax### -->
+<div class="form-group ajax ###is_error_###fieldname###### field-###fieldname###">
+	<div class="col-sm-3">
+		<div class="row">
+			<label class="col-xs-10 control-label " for="###fieldname###">###LLL:###fieldname###### ###required_###fieldname######</label>
+			<div class="col-xs-2">
+				###validate_###fieldname######
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-9">
+		<textarea class="form-control" rows="3" cols="30" id="###fieldname###" name="###formValuesPrefix###[###fieldname###]">###value_###fieldname######</textarea>
+	</div>
+</div>
+<!-- ###master_textarea_ajax### -->

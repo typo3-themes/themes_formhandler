@@ -1,4 +1,4 @@
-plugin.Tx_Formhandler.settings.predef.theme-contact-ajax-basic-form {
+plugin.Tx_Formhandler.settings.predef.themes-contact-ajax-basic-form {
 
 	# This is the title of the predefined form shown in the dropdown box in the plugin options.
 	name = Contact-AJAX-Basic (Name, E-Mail, Message)
@@ -17,7 +17,7 @@ plugin.Tx_Formhandler.settings.predef.theme-contact-ajax-basic-form {
 
 	# The master template is a file containing the markup for specific field types or other sub templates (e.g. for emails). You can use these predefined markups in your HTML template for a specific form.
 	masterTemplateFile = TEXT
-	masterTemplateFile.value = {$themes.configuration.forms.contact.ajax.basic.templatePath}MasterTemplate.html
+	masterTemplateFile.value = {$themes.configuration.forms.contact.ajax.basic.templatePath}MasterTemplate/MasterTemplate{$themes.framework}.html
 	
 	# CSS files
 	cssFile {
@@ -85,7 +85,7 @@ plugin.Tx_Formhandler.settings.predef.theme-contact-ajax-basic-form {
 
 # If the user has chosen to receive a copy of the contact request, reconfigure Finisher_Mail to send an email to the user to.
 [globalVar = GP:contact-ajax-basic|receivecopy = 1]
-plugin.Tx_Formhandler.settings.predef.theme-contact-ajax-basic-form {
+plugin.Tx_Formhandler.settings.predef.themes-contact-ajax-basic-form {
 	finishers {
 		1.config {
 			user {
