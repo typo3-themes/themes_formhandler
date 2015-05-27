@@ -30,3 +30,13 @@ Anschließend für jede
 
 
 Das Feld Betreff wird automatisch validiert und ist ein Pflichtfeld.
+
+Nicht benötigte Felder im Backend ausblenden
+============================================
+Für die FrontendUser, welche die Optionen bereitstellen, werden nicht alle Eingabefelder benötigt. um nun den Redakteur nicht mit den überflüssigen Felder zu verwirren, können Sie einfach die folgende Dtei in das tsconfig-Feld schreiben:
+
+.. code-block:: typoscript
+    :linenos:
+    
+    <INCLUDE_TYPOSCRIPT: source="FILE:EXT:themes_formhandler/Configuration/PageTS/subject.container.pagets">
+
