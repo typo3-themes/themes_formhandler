@@ -1,0 +1,50 @@
+module.tx_ftm {
+	settings.files.Extension {
+		Fluid {
+			Templates {
+				Directories {
+					Resources_Private_Extensions_Extension_Templates_AppointmentRequest {
+						Extensions {
+							html = html
+						}
+					}
+					Resources_Private_Extensions_Extension_Templates_ContactAdvanced {
+						Extensions {
+							html = html
+						}
+					}
+					Resources_Private_Extensions_Extension_Templates_ContactAjaxBasic {
+						Extensions {
+							html = html
+						}
+					}
+					Resources_Private_Extensions_Extension_Templates_ContactAjaxAdvanced {
+						Extensions {
+							html = html
+						}
+					}
+					Resources_Private_Extensions_Extension_Templates_ContactBasic {
+						Extensions {
+							html = html
+						}
+					}
+					Resources_Private_Extensions_Extension_Templates_ContactMedium {
+						Extensions {
+							html = html
+						}
+					}
+					Resources_Private_Extensions_Extension_Templates_EstateSearch {
+						Extensions {
+							html = html
+						}
+					}
+					Resources_Private_Extensions_Extension_Templates_MasterTemplate {
+						Extensions {
+							html = html
+						}
+					}
+				}
+			}
+		}
+	}
+}

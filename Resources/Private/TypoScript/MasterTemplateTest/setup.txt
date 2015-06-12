@@ -17,7 +17,7 @@ plugin.Tx_Formhandler.settings.predef.themes-master-template-test-form {
 
 	# The master template is a file containing the markup for specific field types or other sub templates (e.g. for emails). You can use these predefined markups in your HTML template for a specific form.
 	masterTemplateFile = TEXT
-	masterTemplateFile.value = {$themes.configuration.forms.estate.search.templatePath}MasterTemplate/MasterTemplate{$themes.framework}.html
+	masterTemplateFile.value = {$themes.configuration.forms.masterTemplatePath}MasterTemplate{$themes.framework}.html
 
 	markers {
 		subject_options = CONTENT

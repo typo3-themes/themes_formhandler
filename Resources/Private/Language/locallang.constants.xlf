@@ -34,6 +34,9 @@
 			</trans-unit>
 
 
+			<trans-unit id="tx_themesformhandler_constants.master_template_path">
+				<source>Master-Template root path: Path where the master template was saved to.</source>
+			</trans-unit>
 			<trans-unit id="tx_themesformhandler_constants.template_path">
 				<source>Template root path: Path where the templates was saved to.</source>
 			</trans-unit>

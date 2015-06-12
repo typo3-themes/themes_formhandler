@@ -1,0 +1,24 @@
+# customcategory=forms=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.category
+# customsubcategory=contactajaxadvanced=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.subcategory_forms_contactajaxadvanced
+
+themes.configuration.forms.contact.ajax.advanced {
+
+	# cat=forms,expert/contactajaxadvanced/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.template_path
+	templatePath = EXT:themes_formhandler/Resources/Private/Templates/
+
+	# cat=forms,expert/contactajaxadvanced/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.language_path
+	languagePath = EXT:themes_formhandler/Resources/Private/Language/ContactAjaxAdvanced.xml
+
+	email {
+
+		admin {
+
+			# cat=forms,basic/contactajaxadvanced/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.email_admin_sender_email
+			sender_email =
+
+			# cat=forms,basic/contactajaxadvanced/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.email_admin_to_email
+			to_email =
+		}
+	}
+
+}

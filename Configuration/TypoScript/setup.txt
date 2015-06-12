@@ -1,3 +1,5 @@
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:themes_formhandler/Configuration/TypoScript/Library/" extensions="setupts">
+
 # Add own error checks
 plugin.Tx_Formhandler.settings.additionalIncludePaths.1 = EXT:themes_formhandler/Classes/Finisher/
 plugin.Tx_Formhandler.settings.additionalIncludePaths.2 = EXT:themes_formhandler/Classes/Validator/ErrorChecks/

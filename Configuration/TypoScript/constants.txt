@@ -4,4 +4,6 @@
 themes.configuration.forms {
 	# cat=forms,expert/formsgeneral/; type=options[0,1]; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.forms_debug
 	debug = 0
+	# cat=forms,expert/formsgeneral/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.master_template_path
+	masterTemplatePath = EXT:themes_formhandler/Resources/Private/Templates/MasterTemplate/
 }
