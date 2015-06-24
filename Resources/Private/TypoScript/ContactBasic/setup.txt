@@ -52,17 +52,14 @@ plugin.Tx_Formhandler.settings.predef.themes-contact-basic-form {
 				templateFile = TEXT
 				templateFile.value = {$themes.configuration.forms.contact.basic.templatePath}ContactBasic/email-admin.html
 				
-				sender_email = {$themes.configuration.forms.contact.basic.email.admin.sender_email}
-				sender_name = Sender-Name
+				sender_email = {$themes.configuration.forms.contact.basic.email.admin.sender.email}
+				sender_name = {$themes.configuration.forms.contact.basic.email.admin.sender.name}
 				
-				to_email = {$themes.configuration.forms.contact.basic.email.admin.to_email}
-				to_name = To-Name
+				to_email = {$themes.configuration.forms.contact.basic.email.admin.to.email}
+				to_name = {$themes.configuration.forms.contact.basic.email.admin.to.name}
 				
-				replyto_email = noreply@coding.ms
-				replyto_name = Reply-Name
-				
-				bcc_email = bcc@coding.ms
-				bcc_name = BCC-Name
+				replyto_email = {$themes.configuration.forms.contact.basic.email.replyto.email}
+				replyto_name = {$themes.configuration.forms.contact.basic.email.replyto.name}
 				
 				subject = TEXT
 				subject.data = LLL:{$themes.configuration.forms.contact.basic.languagePath}:email_admin_subject
@@ -86,7 +83,8 @@ plugin.Tx_Formhandler.settings.predef.themes-contact-basic-form {
 			user {
 				templateFile = TEXT
 				templateFile.value = {$themes.configuration.forms.contact.basic.templatePath}ContactBasic/email-user.html
-				sender_email = {$themes.configuration.forms.contact.basic.email.user.sender_email}
+				sender_email = {$themes.configuration.forms.contact.basic.email.user.sender.email}
+				sender_name = {$themes.configuration.forms.contact.basic.email.user.sender.name}
 				to_email = email
 				subject = TEXT
 				subject.data = LLL:{$themes.configuration.forms.contact.basic.languagePath}:email_user_subject

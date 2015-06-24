@@ -45,14 +45,33 @@
 			</trans-unit>
 
 			<trans-unit id="tx_themesformhandler_constants.email_user_sender_email">
-				<source>User email sender: Email address to use as sender address for the user email.</source>
+				<source>User email sender: Email address for the user email.</source>
 			</trans-unit>
+			<trans-unit id="tx_themesformhandler_constants.email_user_sender_name">
+				<source>User name sender: Name for the user email.</source>
+			</trans-unit>
+			
 			<trans-unit id="tx_themesformhandler_constants.email_admin_sender_email">
-				<source>Admin email sender: Email address to use as sender address for the admin email.</source>
+				<source>Admin email sender: Email address for the admin email.</source>
 			</trans-unit>
+			<trans-unit id="tx_themesformhandler_constants.email_admin_sender_name">
+				<source>Admin name sender: Name for for the admin email.</source>
+			</trans-unit>
+			
 			<trans-unit id="tx_themesformhandler_constants.email_admin_to_email">
-				<source>Admin email recipient: Email address of an admin to receive the contact request.</source>
+				<source>Admin email recipient: Email address of the admin who receive the contact request.</source>
 			</trans-unit>
+			<trans-unit id="tx_themesformhandler_constants.email_admin_to_name">
+				<source>Admin name recipient: Name of the admin who receive the contact request.</source>
+			</trans-unit>
+
+			<trans-unit id="tx_themesformhandler_constants.email_replyto_email">
+				<source>Reply-to email recipient: Email address of the reply-to.</source>
+			</trans-unit>
+			<trans-unit id="tx_themesformhandler_constants.email_replyto_name">
+				<source>Reply-to name recipient: Name of the reply-to.</source>
+			</trans-unit>
+			
 			<trans-unit id="tx_themesformhandler_constants.redirect_page">
 				<source>Redirect Page: Page ID to redirect after successful form submission.</source>
 			</trans-unit>

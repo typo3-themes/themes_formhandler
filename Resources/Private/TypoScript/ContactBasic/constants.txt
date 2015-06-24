@@ -10,20 +10,37 @@ themes.configuration.forms.contact.basic {
 	languagePath = EXT:themes_formhandler/Resources/Private/Language/ContactBasic.xml
 	
 	email {
-
 		user {
-
-			# cat=forms,basic/contactbasic/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.email_user_sender_email
-			sender_email = 
+			# sender of the user email
+			sender {
+				# cat=forms,basic/contactbasic/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.email_user_sender_email
+				email =
+				# cat=forms,basic/contactbasic/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.email_user_sender_name
+				name =
+			}
 		}
-
 		admin {
-
-			# cat=forms,basic/contactbasic/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.email_admin_sender_email
-			sender_email = 
-
-			# cat=forms,basic/contactbasic/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.email_admin_to_email
-			to_email = 
+			# sender of the admin email
+			sender{
+				# cat=forms,basic/contactbasic/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.email_admin_sender_email
+				email =
+				# cat=forms,basic/contactbasic/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.email_admin_sender_name
+				name = 
+			}
+			# receiver of the admin email
+			to {
+				# cat=forms,basic/contactbasic/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.email_admin_to_email
+				email =
+				# cat=forms,basic/contactbasic/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.email_admin_to_name
+				name = 
+			}
+		}
+		# email for replies
+		replyto {
+			# cat=forms,basic/contactbasic/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.email_replyto_email
+			email = noreply@coding.ms
+			# cat=forms,basic/contactbasic/; type=string; label=LLL:EXT:themes_formhandler/Resources/Private/Language/locallang.constants.xlf:tx_themesformhandler_constants.email_replyto_name
+			name = noreply@coding.ms
 		}
 	}
 
