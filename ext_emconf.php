@@ -11,40 +11,38 @@
 ########################################################################
 
 $EM_CONF[$_EXTKEY] = array(
-	'title' => 'Themes - Formhandler forms (Bootstrap, Foundation)',
-	'description' => 'Formhandler forms for TYPO3-Themes',
-	'category' => 'frontend',
-	'shy' => 0,
-	'version' => '1.1.0',
-	'dependencies' => '',
-	'conflicts' => '',
-	'priority' => '',
-	'loadOrder' => '',
-	'module' => '',
-	'state' => 'beta',
-	'uploadfolder' => 0,
-	'createDirs' => '',
-	'modify_tables' => '',
-	'clearcacheonload' => 0,
-	'lockType' => '',
-	'author' => 'Thomas Deuling - Themes-Team',
-	'author_email' => 'typo3@coding.ms',
-	'author_company' => '',
-	'CGLcompliance' => '',
-	'CGLcompliance_note' => '',
-	'constraints' => array(
-		'depends' => array(
-			'php'    => '5.2.0-0.0.0',
-			'typo3'  => '6.2.0-6.2.99',
-			'themes' => '1.0.0-2.9.99',
-			'formhandler' => '2.0.1-2.0.1',
-		),
-		'conflicts' => array(
-		),
-		'suggests' => array(
-		),
-	),
-	'_md5_values_when_last_written' => 'a:0:{}',
+    'title' => 'Themes - Formhandler forms (Bootstrap, Foundation)',
+    'description' => 'Formhandler forms for TYPO3-Themes',
+    'category' => 'frontend',
+    'shy' => 0,
+    'version' => '1.1.0',
+    'dependencies' => '',
+    'conflicts' => '',
+    'priority' => '',
+    'loadOrder' => '',
+    'module' => '',
+    'state' => 'beta',
+    'uploadfolder' => 0,
+    'createDirs' => '',
+    'modify_tables' => '',
+    'clearcacheonload' => 0,
+    'lockType' => '',
+    'author' => 'Thomas Deuling - Themes-Team',
+    'author_email' => 'typo3@coding.ms',
+    'author_company' => '',
+    'CGLcompliance' => '',
+    'CGLcompliance_note' => '',
+    'constraints' => array(
+        'depends' => array(
+            'php'    => '5.2.0-0.0.0',
+            'typo3'  => '6.2.0-6.2.99',
+            'themes' => '1.0.0-2.9.99',
+            'formhandler' => '2.0.1-2.0.1',
+        ),
+        'conflicts' => array(
+        ),
+        'suggests' => array(
+        ),
+    ),
+    '_md5_values_when_last_written' => 'a:0:{}',
 );
-
-?>
