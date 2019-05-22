@@ -80,6 +80,8 @@
 			<label index="email_admin_footer">---------------------------------- Diese Nachricht wurde automatisiert erstellt. --------------------------------</label>
 
 			<label index="error_name_required">Bitte geben Sie Ihren Name ein!</label>
+			<label index="error_phone_required">Bitte geben Sie Ihre Telefonnummer ein!!</label>
+			<label index="error_company_required">Bitte geben Sie Ihren Firmen-Name ein!</label>
 			<label index="error_email_required">Bitte geben Sie Ihre E-Mail ein!</label>
 			<label index="error_email_email">Bitte geben Sie eine korrekte E-Mail ein!</label>
 			<label index="error_message_required">Bitte geben Sie eine Nachricht ein!</label>
@@ -114,6 +116,8 @@
 			<label index="email_admin_footer">---------------------------------- This message was created automatically. --------------------------------</label>
 
 			<label index="error_name_required">Please enter your name!</label>
+			<label index="error_phone_required">Please enter your phonenumber!</label>
+			<label index="error_company_required">Please enter your companyname!</label>
 			<label index="error_email_required">Please enter your email address!</label>
 			<label index="error_email_email">Please enter a valid email address!</label>
 			<label index="error_message_required">Please enter a message!</label>
